@@ -6,10 +6,9 @@ import com.atinbo.member.model.UserAddressVO;
 import java.util.List;
 
 /**
- * 用户地址查询service接口
+ * 会员地址接口
  *
- * @author fangqy
- * @date 2016年4月18日 下午3:40:50
+ * @author breggor
  */
 public interface IAddressService {
 

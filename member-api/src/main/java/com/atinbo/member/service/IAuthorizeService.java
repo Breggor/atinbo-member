@@ -3,7 +3,7 @@ package com.atinbo.member.service;
 /**
  * 授权操作service
  *
- * @date 2017/3/21 16:57
+ * @author breggor
  */
 public interface IAuthorizeService {
 

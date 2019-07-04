@@ -1,7 +1,7 @@
 package com.atinbo.member.service;
 
 import com.atinbo.member.model.UserFamilyParam;
-import com.atinbo.member.model.UserFamilyVO;
+import com.atinbo.member.model.UserFamilyBO;
 
 import java.util.List;
 
@@ -34,7 +34,7 @@ public interface IMemberFamilyService {
      * @param id
      * @return
      */
-    UserFamilyVO findUserFamilyById(Long id);
+    UserFamilyBO findUserFamilyById(Long id);
 
     /**
      * 获取家人列表接口
@@ -42,6 +42,6 @@ public interface IMemberFamilyService {
      * @param userId 用户ID
      * @return
      */
-    List<UserFamilyVO> findUserFamilyListByUserId(long userId);
+    List<UserFamilyBO> findUserFamilyListByUserId(long userId);
 
 }

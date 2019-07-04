@@ -7,7 +7,7 @@ import java.util.Date;
 
 
 @Data
-public class UserAddressVO implements Serializable {
+public class UserAddressBO implements Serializable {
     private Long id;
 
     private Long userId;

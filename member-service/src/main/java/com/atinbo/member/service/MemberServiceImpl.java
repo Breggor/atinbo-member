@@ -3,7 +3,7 @@ package com.atinbo.member.service;
 import com.alipay.sofa.runtime.api.annotation.SofaService;
 import com.alipay.sofa.runtime.api.annotation.SofaServiceBinding;
 import com.atinbo.member.model.UserParam;
-import com.atinbo.member.model.UserVO;
+import com.atinbo.member.model.UserBO;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -23,17 +23,17 @@ public class MemberServiceImpl implements IMemberService {
     }
 
     @Override
-    public UserVO findByUsername(String username) {
+    public UserBO findByUsername(String username) {
         return null;
     }
 
     @Override
-    public UserVO findByUserId(Long userId) {
+    public UserBO findByUserId(Long userId) {
         return null;
     }
 
     @Override
-    public UserVO findByWxUnionId(String wxUnionId) {
+    public UserBO findByWxUnionId(String wxUnionId) {
         return null;
     }
 
@@ -63,7 +63,7 @@ public class MemberServiceImpl implements IMemberService {
     }
 
     @Override
-    public UserVO addUser(UserParam userParam) {
+    public UserBO addUser(UserParam userParam) {
         return null;
     }
 
@@ -78,7 +78,7 @@ public class MemberServiceImpl implements IMemberService {
     }
 
     @Override
-    public void updatePassword(UserVO userVO) {
+    public void updatePassword(UserBO userVO) {
 
     }
 

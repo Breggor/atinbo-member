@@ -1,4 +1,4 @@
-package com.atinbo.member;
+package com.atinbo.member.web;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

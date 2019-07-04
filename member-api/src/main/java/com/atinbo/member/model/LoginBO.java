@@ -9,7 +9,7 @@ import java.io.Serializable;
 @Setter
 @Getter
 @NoArgsConstructor
-public class LoginVO implements Serializable {
+public class LoginBO implements Serializable {
     /**
      * openId
      */

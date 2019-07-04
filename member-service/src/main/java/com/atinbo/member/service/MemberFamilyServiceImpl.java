@@ -3,7 +3,7 @@ package com.atinbo.member.service;
 import com.alipay.sofa.runtime.api.annotation.SofaService;
 import com.alipay.sofa.runtime.api.annotation.SofaServiceBinding;
 import com.atinbo.member.model.UserFamilyParam;
-import com.atinbo.member.model.UserFamilyVO;
+import com.atinbo.member.model.UserFamilyBO;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -25,12 +25,12 @@ public class MemberFamilyServiceImpl implements IMemberFamilyService {
     }
 
     @Override
-    public UserFamilyVO findUserFamilyById(Long id) {
+    public UserFamilyBO findUserFamilyById(Long id) {
         return null;
     }
 
     @Override
-    public List<UserFamilyVO> findUserFamilyListByUserId(long userId) {
+    public List<UserFamilyBO> findUserFamilyListByUserId(long userId) {
         return null;
     }
 }

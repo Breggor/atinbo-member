@@ -8,7 +8,7 @@ import java.util.Date;
 
 
 @Data
-public class UserDetailVO implements Serializable {
+public class UserDetailBO implements Serializable {
     private Long userId;
 
     private String nickName;

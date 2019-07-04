@@ -3,7 +3,7 @@ package com.atinbo.member.service;
 import com.alipay.sofa.runtime.api.annotation.SofaService;
 import com.alipay.sofa.runtime.api.annotation.SofaServiceBinding;
 import com.atinbo.member.model.UserAddressParam;
-import com.atinbo.member.model.UserAddressVO;
+import com.atinbo.member.model.UserAddressBO;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -15,17 +15,17 @@ public class AddressServiceImpl implements IAddressService {
 
 
     @Override
-    public UserAddressVO findUserAddressById(Long id) {
+    public UserAddressBO findUserAddressById(Long id) {
         return null;
     }
 
     @Override
-    public List<UserAddressVO> findUserAddressListByUserId(List<Long> list) {
+    public List<UserAddressBO> findUserAddressListByUserId(List<Long> list) {
         return null;
     }
 
     @Override
-    public UserAddressVO findDefaultAddressByUserId(List<Long> list) {
+    public UserAddressBO findDefaultAddressByUserId(List<Long> list) {
         return null;
     }
 

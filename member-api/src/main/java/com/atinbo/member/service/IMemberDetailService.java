@@ -1,7 +1,7 @@
 package com.atinbo.member.service;
 
 import com.atinbo.member.model.UserDetailParam;
-import com.atinbo.member.model.UserDetailVO;
+import com.atinbo.member.model.UserDetailBO;
 
 import java.util.List;
 
@@ -46,7 +46,7 @@ public interface IMemberDetailService {
      * @param userId
      * @return
      */
-    UserDetailVO findUserDetailById(long userId);
+    UserDetailBO findUserDetailById(long userId);
 
     /**
      * 根据用户id查找用户头像
@@ -104,14 +104,14 @@ public interface IMemberDetailService {
      *
      * @return
      */
-    List<UserDetailVO> findUserDetailsListByPage();
+    List<UserDetailBO> findUserDetailsListByPage();
 
     /**
      * 获取虚拟用户详情列表
      *
      * @return
      */
-    List<UserDetailVO> findUserDetailsListByVirtualName();
+    List<UserDetailBO> findUserDetailsListByVirtualName();
 
     /**
      * 根据手机号码获取用户ID列表

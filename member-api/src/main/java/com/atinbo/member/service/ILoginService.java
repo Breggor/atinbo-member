@@ -1,6 +1,6 @@
 package com.atinbo.member.service;
 
-import com.atinbo.member.model.LoginVO;
+import com.atinbo.member.model.LoginBO;
 import com.atinbo.member.model.UserParam;
 
 public interface ILoginService {
@@ -12,7 +12,7 @@ public interface ILoginService {
      * @param userParam
      * @return
      */
-    LoginVO login(UserParam userParam);
+    LoginBO login(UserParam userParam);
 
     /**
      * 微信用户登录
@@ -20,5 +20,5 @@ public interface ILoginService {
      * @param userParam
      * @return
      */
-    LoginVO wxLogin(UserParam userParam);
+    LoginBO wxLogin(UserParam userParam);
 }

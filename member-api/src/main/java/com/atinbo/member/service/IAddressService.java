@@ -1,7 +1,7 @@
 package com.atinbo.member.service;
 
 import com.atinbo.member.model.UserAddressParam;
-import com.atinbo.member.model.UserAddressVO;
+import com.atinbo.member.model.UserAddressBO;
 
 import java.util.List;
 
@@ -19,21 +19,21 @@ public interface IAddressService {
      * @param id
      * @author fangqy
      */
-    UserAddressVO findUserAddressById(Long id);
+    UserAddressBO findUserAddressById(Long id);
 
     /**
      * 获取地址列表接口
      *
      * @param list
      */
-    List<UserAddressVO> findUserAddressListByUserId(List<Long> list);
+    List<UserAddressBO> findUserAddressListByUserId(List<Long> list);
 
     /**
      * 获取用户默认收货地址
      *
      * @param list
      */
-    UserAddressVO findDefaultAddressByUserId(List<Long> list);
+    UserAddressBO findDefaultAddressByUserId(List<Long> list);
 
     /**
      * 获取最新一条地址

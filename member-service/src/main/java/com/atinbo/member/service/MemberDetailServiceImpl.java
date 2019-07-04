@@ -3,7 +3,7 @@ package com.atinbo.member.service;
 import com.alipay.sofa.runtime.api.annotation.SofaService;
 import com.alipay.sofa.runtime.api.annotation.SofaServiceBinding;
 import com.atinbo.member.model.UserDetailParam;
-import com.atinbo.member.model.UserDetailVO;
+import com.atinbo.member.model.UserDetailBO;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
@@ -38,7 +38,7 @@ public class MemberDetailServiceImpl implements IMemberDetailService {
     }
 
     @Override
-    public UserDetailVO findUserDetailById(long userId) {
+    public UserDetailBO findUserDetailById(long userId) {
         return null;
     }
 
@@ -73,12 +73,12 @@ public class MemberDetailServiceImpl implements IMemberDetailService {
     }
 
     @Override
-    public List<UserDetailVO> findUserDetailsListByPage() {
+    public List<UserDetailBO> findUserDetailsListByPage() {
         return null;
     }
 
     @Override
-    public List<UserDetailVO> findUserDetailsListByVirtualName() {
+    public List<UserDetailBO> findUserDetailsListByVirtualName() {
         return null;
     }
 

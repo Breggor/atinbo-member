@@ -8,7 +8,7 @@ import java.util.Date;
 
 
 @Data
-public class UserFamilyVO implements Serializable {
+public class UserFamilyBO implements Serializable {
     private Long id;
 
     private Long userId;

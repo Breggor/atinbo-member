@@ -1,7 +1,7 @@
 package com.atinbo.member.service;
 
 import com.atinbo.member.model.UserParam;
-import com.atinbo.member.model.UserVO;
+import com.atinbo.member.model.UserBO;
 
 import java.util.List;
 
@@ -38,7 +38,7 @@ public interface IMemberService {
      * @param username 用户名
      * @return
      */
-    UserVO findByUsername(String username);
+    UserBO findByUsername(String username);
 
     /**
      * 获取用户信息
@@ -46,7 +46,7 @@ public interface IMemberService {
      * @param userId 用户ID
      * @return
      */
-    UserVO findByUserId(Long userId);
+    UserBO findByUserId(Long userId);
 
     /**
      * 根据wxUnionId获取关联账号信息，且优先返回APP微信账户
@@ -55,7 +55,7 @@ public interface IMemberService {
      * @return UserVO
      * @version 1.1.0(5.3.10)
      */
-    UserVO findByWxUnionId(String wxUnionId);
+    UserBO findByWxUnionId(String wxUnionId);
 
     /**
      * 校验当前手机号能否继续获取验证码
@@ -106,7 +106,7 @@ public interface IMemberService {
      * @param userParam 用户基本信息
      * @return
      */
-    UserVO addUser(UserParam userParam);
+    UserBO addUser(UserParam userParam);
 
     /**
      * 补全微信统一用户帐号ID
@@ -137,7 +137,7 @@ public interface IMemberService {
      * @Description: 修改用户密码
      * @author fangqy
      */
-    void updatePassword(UserVO userVO);
+    void updatePassword(UserBO userVO);
 
     /**
      * 更新用户信息

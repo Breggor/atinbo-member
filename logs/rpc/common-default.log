@@ -1,0 +1,37 @@
+2019-07-04 18:45:29,943 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.5.5_20190611191744, PID is:9073
+2019-07-04 18:45:29,956 INFO  main                             - Install Module: fault-tolerance
+2019-07-04 18:45:29,967 INFO  main                             - Install Module: sofaTracer-resteasy
+2019-07-04 18:45:29,973 INFO  main                             - Install Module: lookout
+2019-07-04 18:45:29,976 INFO  main                             - Install Module: sofaTracer
+2019-07-04 18:45:29,986 INFO  main                             - Export provider config : com.atinbo.member.service.IMemberService:member-service01:bolt with bean id rpc-cfg-0
+2019-07-04 18:45:40,335 INFO  main                             - service published.  interfaceId[com.atinbo.member.service.IMemberService]; protocol[bolt]
+2019-07-04 18:48:20,292 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework catch JVM shutdown event, Run shutdown hook now.
+2019-07-04 18:48:20,293 INFO  Thread-124                       - Unexport provider config : com.atinbo.member.service.IMemberService:member-service01:bolt with bean id rpc-cfg-0
+2019-07-04 18:48:20,308 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: fault-tolerance
+2019-07-04 18:48:20,308 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer-resteasy
+2019-07-04 18:48:20,309 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: lookout
+2019-07-04 18:48:20,309 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer
+2019-07-04 18:48:20,310 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework has been release all resources ...
+2019-07-04 18:53:05,228 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.5.5_20190611191744, PID is:9230
+2019-07-04 18:53:05,243 INFO  main                             - Install Module: fault-tolerance
+2019-07-04 18:53:05,257 INFO  main                             - Install Module: sofaTracer-resteasy
+2019-07-04 18:53:05,266 INFO  main                             - Install Module: lookout
+2019-07-04 18:53:05,269 INFO  main                             - Install Module: sofaTracer
+2019-07-04 18:53:05,278 INFO  main                             - Export provider config : com.atinbo.member.service.IMemberService:member-service01:bolt with bean id rpc-cfg-0
+2019-07-04 18:53:05,307 INFO  main                             - Export provider config : com.atinbo.member.service.IMemberDetailService:member-service01:bolt with bean id rpc-cfg-1
+2019-07-04 18:53:05,311 INFO  main                             - Export provider config : com.atinbo.member.service.IAuthorizeService:member-service01:bolt with bean id rpc-cfg-2
+2019-07-04 18:53:05,313 INFO  main                             - Export provider config : com.atinbo.member.service.IMemberFamilyService:member-service01:bolt with bean id rpc-cfg-3
+2019-07-04 18:53:15,604 INFO  main                             - service published.  interfaceId[com.atinbo.member.service.IMemberDetailService]; protocol[bolt]
+2019-07-04 18:53:15,605 INFO  main                             - service published.  interfaceId[com.atinbo.member.service.IMemberFamilyService]; protocol[bolt]
+2019-07-04 18:53:15,605 INFO  main                             - service published.  interfaceId[com.atinbo.member.service.IMemberService]; protocol[bolt]
+2019-07-04 18:53:15,605 INFO  main                             - service published.  interfaceId[com.atinbo.member.service.IAuthorizeService]; protocol[bolt]
+2019-07-04 18:57:29,751 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework catch JVM shutdown event, Run shutdown hook now.
+2019-07-04 18:57:29,755 INFO  Thread-126                       - Unexport provider config : com.atinbo.member.service.IMemberDetailService:member-service01:bolt with bean id rpc-cfg-1
+2019-07-04 18:57:29,760 INFO  Thread-126                       - Unexport provider config : com.atinbo.member.service.IMemberFamilyService:member-service01:bolt with bean id rpc-cfg-3
+2019-07-04 18:57:29,762 INFO  Thread-126                       - Unexport provider config : com.atinbo.member.service.IMemberService:member-service01:bolt with bean id rpc-cfg-0
+2019-07-04 18:57:29,764 INFO  Thread-126                       - Unexport provider config : com.atinbo.member.service.IAuthorizeService:member-service01:bolt with bean id rpc-cfg-2
+2019-07-04 18:57:29,774 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: fault-tolerance
+2019-07-04 18:57:29,774 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer-resteasy
+2019-07-04 18:57:29,774 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: lookout
+2019-07-04 18:57:29,774 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer
+2019-07-04 18:57:29,775 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework has been release all resources ...

@@ -1,0 +1,2 @@
+{"time":"2019-07-04 18:47:12.448","stat.key":{"method":"GET","local.app":"member-service","request.url":"http://localhost:8008/"},"count":1,"total.cost.milliseconds":94,"success":"true","load.test":"F"}
+{"time":"2019-07-04 18:47:12.448","stat.key":{"method":"GET","local.app":"member-service","request.url":"http://localhost:8008/favicon.ico"},"count":1,"total.cost.milliseconds":7,"success":"true","load.test":"F"}

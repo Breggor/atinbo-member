@@ -1,0 +1,1 @@
+2019-07-04 18:52:46,317 ERROR main                             - SofaService was already registered: ServiceFactoryBean#com.atinbo.member.service.IAuthorizeService:member-service01

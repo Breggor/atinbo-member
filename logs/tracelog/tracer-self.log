@@ -1,0 +1,10 @@
+2019-07-04 18:05:25.061[WARN]  datasource-client-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-07-04 18:37:39.848[WARN]  datasource-client-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-07-04 18:40:31.790[WARN]  datasource-client-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-07-04 18:45:12.439[WARN]  datasource-client-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-07-04 18:45:29.970[WARN]  rpc-client-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-07-04 18:45:29.971[WARN]  rpc-server-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-07-04 18:46:08.072[WARN]  spring-mvc-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-07-04 18:52:46.919[WARN]  datasource-client-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-07-04 18:53:05.261[WARN]  rpc-client-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-07-04 18:53:05.262[WARN]  rpc-server-stat.log configured stat_log_interval=60 second and default cycle=60

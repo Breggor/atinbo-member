@@ -1,17 +1,16 @@
 package com.atinbo.member.service;
 
+import com.alipay.sofa.runtime.api.annotation.SofaService;
+import com.alipay.sofa.runtime.api.annotation.SofaServiceBinding;
 import com.atinbo.member.model.UserFamilyParam;
 import com.atinbo.member.model.UserFamilyVO;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-/**
- * 会员家庭成员
- *
- * @author breggor
- */
-@Service("memberFamilyService")
+
+@Service
+@SofaService(interfaceType = IMemberFamilyService.class, uniqueId = "${service.unique.id}", bindings = {@SofaServiceBinding(bindingType = "bolt")})
 public class MemberFamilyServiceImpl implements IMemberFamilyService {
 
 

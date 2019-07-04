@@ -1,15 +1,16 @@
 package com.atinbo.member.service;
 
+import com.alipay.sofa.runtime.api.annotation.SofaService;
+import com.alipay.sofa.runtime.api.annotation.SofaServiceBinding;
 import com.atinbo.member.model.UserParam;
 import com.atinbo.member.model.UserVO;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-/**
- * 会员接口实现类
- */
-@Service("memberServiceImpl")
+
+@Service
+@SofaService(interfaceType = IMemberService.class, uniqueId = "${service.unique.id}", bindings = {@SofaServiceBinding(bindingType = "bolt")})
 public class MemberServiceImpl implements IMemberService {
     @Override
     public String findPhone(Long userId, String wxUnionId) {

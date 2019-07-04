@@ -1,15 +1,12 @@
 package com.atinbo.member.service;
 
+import com.alipay.sofa.runtime.api.annotation.SofaService;
+import com.alipay.sofa.runtime.api.annotation.SofaServiceBinding;
 import org.springframework.stereotype.Service;
 
-/**
- * 授权操作services实现
- *
- * @author chenxiaolei
- * @version 5.3.20
- * @date 2017/3/21 17:25
- */
-@Service("authorizeService")
+
+@Service
+@SofaService(interfaceType = IAuthorizeService.class, uniqueId = "${service.unique.id}", bindings = {@SofaServiceBinding(bindingType = "bolt")})
 public class AuthorizeServiceImpl implements IAuthorizeService {
 
     @Override

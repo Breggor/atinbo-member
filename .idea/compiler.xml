@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="member-service" />
+        <module name="member-web" />
         <module name="member-api" />
       </profile>
     </annotationProcessing>
@@ -14,6 +15,7 @@
       <module name="atinbo-member" target="1.5" />
       <module name="member-api" target="1.8" />
       <module name="member-service" target="1.8" />
+      <module name="member-web" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

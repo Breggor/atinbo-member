@@ -4,5 +4,6 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/member-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/member-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/member-web" charset="UTF-8" />
   </component>
 </project>

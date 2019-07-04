@@ -1,5 +1,7 @@
 package com.atinbo.member.service;
 
+import com.alipay.sofa.runtime.api.annotation.SofaService;
+import com.alipay.sofa.runtime.api.annotation.SofaServiceBinding;
 import com.atinbo.member.model.UserDetailParam;
 import com.atinbo.member.model.UserDetailVO;
 import org.slf4j.Logger;
@@ -8,12 +10,9 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-/**
- * 会员资料接口实现类
- *
- * @author breggor
- */
-@Service("memberDetailService")
+
+@Service
+@SofaService(interfaceType = IMemberDetailService.class, uniqueId = "${service.unique.id}", bindings = {@SofaServiceBinding(bindingType = "bolt")})
 public class MemberDetailServiceImpl implements IMemberDetailService {
 
     private final Logger logger = LoggerFactory.getLogger(this.getClass());

@@ -27,7 +27,6 @@
         <sofa-boot.version>3.1.5</sofa-boot.version>
         <sofa-registry-client.version>5.2.0</sofa-registry-client.version>
         <servlet-api.version>4.0.1</servlet-api.version>
-        <junit.version>4.12</junit.version>
         <slf4j.version>1.7.21</slf4j.version>
         <mysql.connector.version>8.0.16</mysql.connector.version>
         <HikariCP.version>3.3.1</HikariCP.version>

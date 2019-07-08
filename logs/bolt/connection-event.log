@@ -1,6 +1,0 @@
-2019-07-04 18:45:40,452 INFO  [ConnectionEventHandler#292] [Rpc-netty-client-worker-6-thread-1] Connection channel registered: UNKNOWN-ADDR
-2019-07-04 18:45:40,452 INFO  [ConnectionEventHandler#80] [Rpc-netty-client-worker-6-thread-1] Try connect to 192.168.6.85:9600
-2019-07-04 18:45:40,459 INFO  [ConnectionEventHandler#290] [Rpc-netty-client-worker-6-thread-1] Connection channel active: 192.168.6.85:9600
-2019-07-04 18:53:15,675 INFO  [ConnectionEventHandler#292] [Rpc-netty-client-worker-6-thread-1] Connection channel registered: UNKNOWN-ADDR
-2019-07-04 18:53:15,677 INFO  [ConnectionEventHandler#80] [Rpc-netty-client-worker-6-thread-1] Try connect to 192.168.6.85:9600
-2019-07-04 18:53:15,683 INFO  [ConnectionEventHandler#290] [Rpc-netty-client-worker-6-thread-1] Connection channel active: 192.168.6.85:9600

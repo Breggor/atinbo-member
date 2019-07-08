@@ -1,16 +1,16 @@
 package com.atinbo.member.repo;
 
-
-import com.atinbo.member.entity.Member;
+import com.atinbo.member.entity.Tag;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.stereotype.Repository;
 
+
 /**
- * 会员用户 Repo
+ * 会员tag Repo
  *
  * @author breggor
  */
 @Repository
-public interface MemberRepo extends JpaRepository<Member, Long>, JpaSpecificationExecutor<Member> {
+public interface TagRepo extends JpaRepository<Tag, Long>, JpaSpecificationExecutor<Tag> {
 }

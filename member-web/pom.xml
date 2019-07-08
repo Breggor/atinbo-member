@@ -11,7 +11,7 @@
     <url>https://github.com/breggor</url>
 
     <properties>
-        <starter-class>com.atinbo.member.web.Application</starter-class>
+        <starter-class>com.atinbo.member.web.Starter</starter-class>
     </properties>
 
     <dependencies>

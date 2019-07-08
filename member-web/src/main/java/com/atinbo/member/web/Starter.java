@@ -7,10 +7,11 @@ import java.io.IOException;
 
 
 @SpringBootApplication
-public class Application {
+public class Starter {
+
 
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(Starter.class, args);
         try {
             System.in.read();
         } catch (IOException e) {

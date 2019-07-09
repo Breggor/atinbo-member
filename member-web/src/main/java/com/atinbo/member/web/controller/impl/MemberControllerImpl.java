@@ -8,11 +8,12 @@ import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.alipay.sofa.runtime.api.annotation.SofaReference;
 import com.alipay.sofa.runtime.api.annotation.SofaReferenceBinding;
+import com.atinbo.member.model.UserBO;
+import com.atinbo.member.service.IMemberService;
 import com.atinbo.member.web.controller.MemberController;
 import com.atinbo.member.web.model.BalanceResponse;
 import com.atinbo.member.web.model.ProductVO;
 import com.atinbo.member.web.model.Success;
-import com.atinbo.member.service.IMemberService;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestBody;
 
@@ -33,6 +34,7 @@ public class MemberControllerImpl implements MemberController {
     public List<ProductVO> query(String body) {
         JSONObject obj = JSON.parseObject(body);
         String userName = obj.getString("userName");
+        UserBO user = memberService.findByUserId(1L);
         return null;
     }
 

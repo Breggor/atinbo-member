@@ -16,7 +16,7 @@ public class TagRepoTestCase extends AbstractTestCase {
     @Test
     public void testNew() {
         Tag tag = new Tag();
-        tag.setId(1L);
+        tag.setId(11L);
         tag.setName("上海");
         tag.setCreateAt(new Date());
 

@@ -27,6 +27,7 @@ public class MemberController {
     @GetMapping("/{id}")
     @ResponseBody
     MemberVO view(@PathVariable("id") Long id) {
+        return null;
     }
 
     /**

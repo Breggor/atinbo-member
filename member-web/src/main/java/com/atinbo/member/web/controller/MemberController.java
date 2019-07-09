@@ -7,25 +7,23 @@ import com.atinbo.member.web.model.BalanceResponse;
 import com.atinbo.member.web.model.ProductVO;
 import com.atinbo.member.web.model.Success;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 
 @Controller
-@RequestMapping("/")
+@RequestMapping("/members")
 public class MemberController {
 
     @SofaReference(interfaceType = IAddressService.class, uniqueId = "${service.unique.id}", binding = @SofaReferenceBinding(bindingType = "bolt"))
     private IAddressService addressService;
 
+
     /**
      * 查询商品信息
      */
-    @RequestMapping(value = "/query", method = RequestMethod.POST)
+    @GetMapping
     @ResponseBody
     String query(@RequestBody String body) {
         return addressService.findAddressBy(1L).toString();

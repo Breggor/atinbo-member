@@ -3,8 +3,6 @@ package com.atinbo.member.web.controller;
 import com.alipay.sofa.runtime.api.annotation.SofaReference;
 import com.alipay.sofa.runtime.api.annotation.SofaReferenceBinding;
 import com.atinbo.member.model.MemberQuery;
-import com.atinbo.member.service.IAddressService;
-import com.atinbo.member.service.IMemberService;
 import com.atinbo.member.web.model.MemberForm;
 import com.atinbo.member.web.model.MemberVO;
 import com.atinbo.member.web.model.Success;

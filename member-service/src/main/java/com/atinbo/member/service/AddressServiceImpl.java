@@ -2,21 +2,29 @@ package com.atinbo.member.service;
 
 import com.alipay.sofa.runtime.api.annotation.SofaService;
 import com.alipay.sofa.runtime.api.annotation.SofaServiceBinding;
-import com.atinbo.member.model.UserAddressParam;
 import com.atinbo.member.model.UserAddressBO;
+import com.atinbo.member.model.UserAddressParam;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 
+/**
+ * 会员收货地址
+ *
+ * @author breggor
+ */
 @Service
-@SofaService(interfaceType = IAuthorizeService.class, uniqueId = "${service.unique.id}", bindings = {@SofaServiceBinding(bindingType = "bolt")})
+@SofaService(interfaceType = IAddressService.class, uniqueId = "${service.unique.id}", bindings = {@SofaServiceBinding(bindingType = "bolt")})
 public class AddressServiceImpl implements IAddressService {
 
 
     @Override
-    public UserAddressBO findUserAddressById(Long id) {
-        return null;
+    public UserAddressBO findAddressBy(Long memberId) {
+        UserAddressBO result = new UserAddressBO();
+        result.setId(1L);
+        result.setAddress("上海市宝山区");
+        return result;
     }
 
     @Override

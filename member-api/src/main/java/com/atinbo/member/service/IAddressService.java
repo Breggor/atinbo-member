@@ -16,10 +16,10 @@ public interface IAddressService {
     /**
      * 获取单个地址接口
      *
-     * @param id
+     * @param memberId
      * @author fangqy
      */
-    UserAddressBO findUserAddressById(Long id);
+    UserAddressBO findAddressBy(Long memberId);
 
     /**
      * 获取地址列表接口

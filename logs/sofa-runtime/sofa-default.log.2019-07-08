@@ -1,0 +1,32 @@
+2019-07-08 18:42:08,142 INFO  main                             - SOFABoot Runtime Starting!
+2019-07-08 18:42:19,559 ERROR main                             - SofaService was already registered: ServiceFactoryBean#com.atinbo.member.service.IAuthorizeService:member-service01
+2019-07-08 18:42:35,014 INFO  main                             - Registering component: service:com.atinbo.member.service.IMemberService:member-service01
+2019-07-08 18:42:35,014 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.atinbo.member.service.IMemberService:member-service01.
+2019-07-08 18:42:40,100 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.atinbo.member.service.IMemberService:member-service01.
+2019-07-08 18:42:40,100 INFO  main                             -  <<Out Binding [bolt] Begins - com.atinbo.member.service.IMemberService:member-service01.
+2019-07-08 18:42:40,148 INFO  main                             -  <<Out Binding [bolt] Ends - com.atinbo.member.service.IMemberService:member-service01.
+2019-07-08 18:42:40,149 INFO  main                             - Register Service - com.atinbo.member.service.IMemberService:member-service01
+2019-07-08 18:42:40,150 INFO  main                             - Registering component: service:com.atinbo.member.service.IMemberDetailService:member-service01
+2019-07-08 18:42:40,150 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.atinbo.member.service.IMemberDetailService:member-service01.
+2019-07-08 18:42:40,150 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.atinbo.member.service.IMemberDetailService:member-service01.
+2019-07-08 18:42:40,150 INFO  main                             -  <<Out Binding [bolt] Begins - com.atinbo.member.service.IMemberDetailService:member-service01.
+2019-07-08 18:42:40,151 INFO  main                             -  <<Out Binding [bolt] Ends - com.atinbo.member.service.IMemberDetailService:member-service01.
+2019-07-08 18:42:40,151 INFO  main                             - Register Service - com.atinbo.member.service.IMemberDetailService:member-service01
+2019-07-08 18:42:40,152 INFO  main                             - Registering component: service:com.atinbo.member.service.IAuthorizeService:member-service01
+2019-07-08 18:42:40,152 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.atinbo.member.service.IAuthorizeService:member-service01.
+2019-07-08 18:42:40,152 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.atinbo.member.service.IAuthorizeService:member-service01.
+2019-07-08 18:42:40,152 INFO  main                             -  <<Out Binding [bolt] Begins - com.atinbo.member.service.IAuthorizeService:member-service01.
+2019-07-08 18:42:40,153 INFO  main                             -  <<Out Binding [bolt] Ends - com.atinbo.member.service.IAuthorizeService:member-service01.
+2019-07-08 18:42:40,153 INFO  main                             - Register Service - com.atinbo.member.service.IAuthorizeService:member-service01
+2019-07-08 18:42:40,154 INFO  main                             - Registering component: service:com.atinbo.member.service.IMemberFamilyService:member-service01
+2019-07-08 18:42:40,154 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.atinbo.member.service.IMemberFamilyService:member-service01.
+2019-07-08 18:42:40,154 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.atinbo.member.service.IMemberFamilyService:member-service01.
+2019-07-08 18:42:40,154 INFO  main                             -  <<Out Binding [bolt] Begins - com.atinbo.member.service.IMemberFamilyService:member-service01.
+2019-07-08 18:42:40,154 INFO  main                             -  <<Out Binding [bolt] Ends - com.atinbo.member.service.IMemberFamilyService:member-service01.
+2019-07-08 18:42:40,154 INFO  main                             - Register Service - com.atinbo.member.service.IMemberFamilyService:member-service01
+2019-07-08 18:47:12,072 INFO  main                             - SOFABoot Runtime Starting!
+2019-07-08 18:47:24,346 INFO  main                             - Registering component: reference:com.atinbo.member.service.IMemberService:member-service_02#-2091936094
+2019-07-08 18:47:24,347 INFO  main                             -  >>In Binding [bolt] Begins - com.atinbo.member.service.IMemberService:member-service_02.
+2019-07-08 18:47:35,398 INFO  main                             -  >>In Binding [bolt] Ends - com.atinbo.member.service.IMemberService:member-service_02.
+2019-07-08 18:47:35,398 INFO  main                             -  >>In Binding [jvm] Begins - com.atinbo.member.service.IMemberService:member-service_02.
+2019-07-08 18:47:35,400 INFO  main                             -  >>In Binding [jvm] Ends - com.atinbo.member.service.IMemberService:member-service_02.

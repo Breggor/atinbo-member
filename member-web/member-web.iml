@@ -45,9 +45,6 @@
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.9.7" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.9.7" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.module:jackson-module-parameter-names:2.9.7" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-tomcat:2.1.0.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.tomcat.embed:tomcat-embed-core:9.0.12" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.tomcat.embed:tomcat-embed-websocket:9.0.12" level="project" />
     <orderEntry type="library" name="Maven: org.hibernate.validator:hibernate-validator:6.0.13.Final" level="project" />
     <orderEntry type="library" name="Maven: javax.validation:validation-api:2.0.1.Final" level="project" />
     <orderEntry type="library" name="Maven: org.jboss.logging:jboss-logging:3.3.2.Final" level="project" />
@@ -159,7 +156,7 @@
     <orderEntry type="library" name="Maven: com.alipay.sofa:sofa-tracer-datasource-plugin:3.0.5" level="project" />
     <orderEntry type="library" name="Maven: com.alipay.sofa:sofa-tracer-spring-cloud-plugin:3.0.5" level="project" />
     <orderEntry type="library" name="Maven: com.alipay.sofa:sofa-tracer-dubbo-plugin:3.0.5" level="project" />
-    <orderEntry type="library" name="Maven: com.alibaba:fastjson:1.2.47" level="project" />
+    <orderEntry type="library" name="Maven: com.alibaba:fastjson:1.2.58" level="project" />
     <orderEntry type="library" name="Maven: com.alipay.sofa:sofa-tracer-zipkin-plugin:3.0.5" level="project" />
     <orderEntry type="library" name="Maven: io.zipkin.zipkin2:zipkin:2.11.3" level="project" />
     <orderEntry type="library" name="Maven: io.zipkin.reporter2:zipkin-reporter:2.7.7" level="project" />

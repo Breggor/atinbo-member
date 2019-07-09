@@ -1,0 +1,37 @@
+2019-07-09 14:07:14,777 INFO  main                             - service published.  interfaceId[com.atinbo.member.service.IMemberDetailService]; protocol[bolt]
+2019-07-09 14:07:14,781 INFO  main                             - service published.  interfaceId[com.atinbo.member.service.IMemberFamilyService]; protocol[bolt]
+2019-07-09 14:07:14,781 INFO  main                             - service published.  interfaceId[com.atinbo.member.service.IMemberService]; protocol[bolt]
+2019-07-09 14:07:14,781 INFO  main                             - service published.  interfaceId[com.atinbo.member.service.IAuthorizeService]; protocol[bolt]
+2019-07-09 14:20:17,204 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.5.5_20190611191744, PID is:29728
+2019-07-09 14:20:17,217 INFO  main                             - Install Module: fault-tolerance
+2019-07-09 14:20:17,229 INFO  main                             - Install Module: sofaTracer-resteasy
+2019-07-09 14:20:17,237 INFO  main                             - Install Module: lookout
+2019-07-09 14:20:17,240 INFO  main                             - Install Module: sofaTracer
+2019-07-09 14:20:17,252 INFO  main                             - Export provider config : com.atinbo.member.service.IMemberService:member-service01:bolt with bean id rpc-cfg-0
+2019-07-09 14:20:17,286 INFO  main                             - Export provider config : com.atinbo.member.service.IMemberDetailService:member-service01:bolt with bean id rpc-cfg-1
+2019-07-09 14:20:17,288 INFO  main                             - Export provider config : com.atinbo.member.service.IMemberFamilyService:member-service01:bolt with bean id rpc-cfg-2
+2019-07-09 14:20:27,904 INFO  main                             - service published.  interfaceId[com.atinbo.member.service.IMemberDetailService]; protocol[bolt]
+2019-07-09 14:20:27,906 INFO  main                             - service published.  interfaceId[com.atinbo.member.service.IMemberFamilyService]; protocol[bolt]
+2019-07-09 14:20:27,906 INFO  main                             - service published.  interfaceId[com.atinbo.member.service.IMemberService]; protocol[bolt]
+2019-07-09 14:20:27,907 INFO  main                             - service published.  interfaceId[com.atinbo.member.service.IAuthorizeService]; protocol[bolt]
+2019-07-09 14:35:27,644 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework catch JVM shutdown event, Run shutdown hook now.
+2019-07-09 14:35:27,648 INFO  Thread-140                       - Unexport provider config : com.atinbo.member.service.IMemberDetailService:member-service01:bolt with bean id rpc-cfg-1
+2019-07-09 14:35:27,651 INFO  Thread-140                       - Unexport provider config : com.atinbo.member.service.IMemberFamilyService:member-service01:bolt with bean id rpc-cfg-2
+2019-07-09 14:35:27,653 INFO  Thread-140                       - Unexport provider config : com.atinbo.member.service.IMemberService:member-service01:bolt with bean id rpc-cfg-0
+2019-07-09 14:35:27,658 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: fault-tolerance
+2019-07-09 14:35:27,658 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer-resteasy
+2019-07-09 14:35:27,658 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: lookout
+2019-07-09 14:35:27,658 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer
+2019-07-09 14:35:27,659 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework has been release all resources ...
+2019-07-09 14:36:31,491 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.5.5_20190611191744, PID is:29947
+2019-07-09 14:36:31,508 INFO  main                             - Install Module: fault-tolerance
+2019-07-09 14:36:31,522 INFO  main                             - Install Module: sofaTracer-resteasy
+2019-07-09 14:36:31,530 INFO  main                             - Install Module: lookout
+2019-07-09 14:36:31,533 INFO  main                             - Install Module: sofaTracer
+2019-07-09 14:36:31,544 INFO  main                             - Export provider config : com.atinbo.member.service.IMemberService:member-service01:bolt with bean id rpc-cfg-0
+2019-07-09 14:36:31,577 INFO  main                             - Export provider config : com.atinbo.member.service.IMemberDetailService:member-service01:bolt with bean id rpc-cfg-1
+2019-07-09 14:36:31,579 INFO  main                             - Export provider config : com.atinbo.member.service.IMemberFamilyService:member-service01:bolt with bean id rpc-cfg-2
+2019-07-09 14:36:42,139 INFO  main                             - service published.  interfaceId[com.atinbo.member.service.IMemberDetailService]; protocol[bolt]
+2019-07-09 14:36:42,140 INFO  main                             - service published.  interfaceId[com.atinbo.member.service.IMemberFamilyService]; protocol[bolt]
+2019-07-09 14:36:42,140 INFO  main                             - service published.  interfaceId[com.atinbo.member.service.IMemberService]; protocol[bolt]
+2019-07-09 14:36:42,140 INFO  main                             - service published.  interfaceId[com.atinbo.member.service.IAuthorizeService]; protocol[bolt]

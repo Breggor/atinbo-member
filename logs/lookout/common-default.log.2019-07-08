@@ -1,0 +1,8 @@
+2019-07-08 18:42:34.774 [main] INFO  com.alipay.lookout.remote.report.SchedulerPoller - started collecting and reporting priority:NORMAL metrics every 30000 
+2019-07-08 18:42:34.774 [main] INFO  com.alipay.lookout.remote.report.SchedulerPoller - started collecting and reporting priority:HIGH metrics every 2000 
+2019-07-08 18:42:34.774 [main] INFO  com.alipay.lookout.remote.report.SchedulerPoller - started collecting and reporting priority:LOW metrics every 60000 
+2019-07-08 18:42:34.776 [main] INFO  com.alipay.lookout.client.DefaultLookoutClient - add a registry:LookoutRegistry
+2019-07-08 18:47:40.818 [main] INFO  com.alipay.lookout.remote.report.SchedulerPoller - started collecting and reporting priority:NORMAL metrics every 30000 
+2019-07-08 18:47:40.819 [main] INFO  com.alipay.lookout.remote.report.SchedulerPoller - started collecting and reporting priority:HIGH metrics every 2000 
+2019-07-08 18:47:40.819 [main] INFO  com.alipay.lookout.remote.report.SchedulerPoller - started collecting and reporting priority:LOW metrics every 60000 
+2019-07-08 18:47:40.821 [main] INFO  com.alipay.lookout.client.DefaultLookoutClient - add a registry:LookoutRegistry

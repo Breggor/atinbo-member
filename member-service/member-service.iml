@@ -180,7 +180,7 @@
     <orderEntry type="library" name="Maven: com.alipay.sofa:sofa-tracer-datasource-plugin:3.0.5" level="project" />
     <orderEntry type="library" name="Maven: com.alipay.sofa:sofa-tracer-spring-cloud-plugin:3.0.5" level="project" />
     <orderEntry type="library" name="Maven: com.alipay.sofa:sofa-tracer-dubbo-plugin:3.0.5" level="project" />
-    <orderEntry type="library" name="Maven: com.alibaba:fastjson:1.2.47" level="project" />
+    <orderEntry type="library" name="Maven: com.alibaba:fastjson:1.2.58" level="project" />
     <orderEntry type="library" name="Maven: com.alipay.sofa:sofa-tracer-zipkin-plugin:3.0.5" level="project" />
     <orderEntry type="library" name="Maven: io.zipkin.zipkin2:zipkin:2.11.3" level="project" />
     <orderEntry type="library" name="Maven: io.zipkin.reporter2:zipkin-reporter:2.7.7" level="project" />

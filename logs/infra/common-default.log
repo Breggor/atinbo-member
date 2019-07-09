@@ -1,0 +1,7 @@
+2019-07-09 14:06:32,737 INFO  main                             - SOFABoot Infrastructure Starting!
+2019-07-09 14:19:46,500 INFO  main                             - SOFABoot Infrastructure Starting!
+2019-07-09 14:23:58,894 INFO  qtp379963364-88                  - Loading properties file from URL [jar:file:/Users/breggor/.m2/repository/com/alipay/sofa/rpc-sofa-boot-starter/6.0.3/rpc-sofa-boot-starter-6.0.3.jar!/META-INF/sofa.versions.properties]
+2019-07-09 14:23:58,905 INFO  qtp379963364-88                  - Loading properties file from URL [jar:file:/Users/breggor/.m2/repository/com/alipay/sofa/rpc-sofa-boot-core/6.0.3/rpc-sofa-boot-core-6.0.3.jar!/META-INF/sofa.versions.properties]
+2019-07-09 14:23:58,905 INFO  qtp379963364-88                  - Loading properties file from URL [jar:file:/Users/breggor/.m2/repository/com/alipay/sofa/infra-sofa-boot-starter/3.1.5/infra-sofa-boot-starter-3.1.5.jar!/META-INF/sofa.versions.properties]
+2019-07-09 14:23:58,905 INFO  qtp379963364-88                  - Loading properties file from URL [jar:file:/Users/breggor/.m2/repository/com/alipay/sofa/runtime-sofa-boot-starter/3.1.5/runtime-sofa-boot-starter-3.1.5.jar!/META-INF/sofa.versions.properties]
+2019-07-09 14:36:01,374 INFO  main                             - SOFABoot Infrastructure Starting!

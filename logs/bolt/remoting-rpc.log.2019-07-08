@@ -1,0 +1,4 @@
+2019-07-08 18:42:40,443 WARN  [RpcServer#884] [main] [server side] bolt netty low water mark is 32768 bytes, high water mark is 65536 bytes
+2019-07-08 18:42:50,648 WARN  [RpcConnectionFactory#237] [main] [client side] bolt netty low water mark is 32768 bytes, high water mark is 65536 bytes
+2019-07-08 18:47:30,000 WARN  [RpcConnectionFactory#237] [main] [client side] bolt netty low water mark is 32768 bytes, high water mark is 65536 bytes
+2019-07-08 18:47:31,098 WARN  [RpcServer#305] [Thread-15] Rpc Server stopped!

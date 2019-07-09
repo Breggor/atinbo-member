@@ -7,3 +7,17 @@
 2019-07-09 14:36:42,194 INFO  [ConnectionEventHandler#292] [Rpc-netty-client-worker-6-thread-1] Connection channel registered: UNKNOWN-ADDR
 2019-07-09 14:36:42,194 INFO  [ConnectionEventHandler#80] [Rpc-netty-client-worker-6-thread-1] Try connect to 192.168.6.106:9600
 2019-07-09 14:36:42,203 INFO  [ConnectionEventHandler#290] [Rpc-netty-client-worker-6-thread-1] Connection channel active: 192.168.6.106:9600
+2019-07-09 16:45:00,969 INFO  [ConnectionEventHandler#292] [Rpc-netty-client-worker-6-thread-1] Connection channel registered: UNKNOWN-ADDR
+2019-07-09 16:45:00,976 INFO  [ConnectionEventHandler#80] [Rpc-netty-client-worker-6-thread-1] Try connect to 192.168.6.106:9600
+2019-07-09 16:45:00,985 INFO  [ConnectionEventHandler#290] [Rpc-netty-client-worker-6-thread-1] Connection channel active: 192.168.6.106:9600
+2019-07-09 16:51:31,576 INFO  [ConnectionEventHandler#292] [Rpc-netty-client-worker-6-thread-1] Connection channel registered: UNKNOWN-ADDR
+2019-07-09 16:51:31,576 INFO  [ConnectionEventHandler#80] [Rpc-netty-client-worker-6-thread-1] Try connect to 192.168.6.106:9600
+2019-07-09 16:51:31,583 INFO  [ConnectionEventHandler#290] [Rpc-netty-client-worker-6-thread-1] Connection channel active: 192.168.6.106:9600
+2019-07-09 16:52:00,832 INFO  [ConnectionEventHandler#292] [Rpc-netty-client-worker-1-thread-1] Connection channel registered: UNKNOWN-ADDR
+2019-07-09 16:52:00,833 INFO  [ConnectionEventHandler#80] [Rpc-netty-client-worker-1-thread-1] Try connect to 192.168.6.106:9600
+2019-07-09 16:52:00,949 INFO  [ConnectionEventHandler#290] [Rpc-netty-client-worker-1-thread-1] Connection channel active: 192.168.6.106:9600
+2019-07-09 16:52:01,134 INFO  [ConnectionEventHandler#292] [Rpc-netty-client-worker-1-thread-2] Connection channel registered: UNKNOWN-ADDR
+2019-07-09 16:52:01,134 INFO  [ConnectionEventHandler#80] [Rpc-netty-client-worker-1-thread-2] Try connect to 192.168.6.80:22200
+2019-07-09 16:52:01,135 INFO  [ConnectionEventHandler#290] [Rpc-netty-client-worker-1-thread-2] Connection channel active: 192.168.6.80:22200
+2019-07-09 16:52:01,137 INFO  [ConnectionEventHandler#290] [Rpc-netty-server-worker-1-thread-1] Connection channel registered: 192.168.6.80:49216
+2019-07-09 16:52:01,138 INFO  [ConnectionEventHandler#290] [Rpc-netty-server-worker-1-thread-1] Connection channel active: 192.168.6.80:49216

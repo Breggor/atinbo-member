@@ -196,3 +196,71 @@ com.alipay.sofa.runtime.api.ServiceRuntimeException:  <<Out Binding [com.atinbo.
 2019-07-09 14:36:31,579 INFO  main                             -  <<Out Binding [bolt] Begins - com.atinbo.member.service.IMemberFamilyService:member-service01.
 2019-07-09 14:36:31,579 INFO  main                             -  <<Out Binding [bolt] Ends - com.atinbo.member.service.IMemberFamilyService:member-service01.
 2019-07-09 14:36:31,579 INFO  main                             - Register Service - com.atinbo.member.service.IMemberFamilyService:member-service01
+2019-07-09 16:44:29,182 INFO  main                             - SOFABoot Runtime Starting!
+2019-07-09 16:44:45,165 INFO  main                             - Registering component: service:com.atinbo.member.service.IMemberService:member-service01
+2019-07-09 16:44:45,166 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.atinbo.member.service.IMemberService:member-service01.
+2019-07-09 16:44:50,291 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.atinbo.member.service.IMemberService:member-service01.
+2019-07-09 16:44:50,292 INFO  main                             -  <<Out Binding [bolt] Begins - com.atinbo.member.service.IMemberService:member-service01.
+2019-07-09 16:44:50,333 INFO  main                             -  <<Out Binding [bolt] Ends - com.atinbo.member.service.IMemberService:member-service01.
+2019-07-09 16:44:50,333 INFO  main                             - Register Service - com.atinbo.member.service.IMemberService:member-service01
+2019-07-09 16:44:50,335 INFO  main                             - Registering component: service:com.atinbo.member.service.IAddressService:member-service01
+2019-07-09 16:44:50,335 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.atinbo.member.service.IAddressService:member-service01.
+2019-07-09 16:44:50,335 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.atinbo.member.service.IAddressService:member-service01.
+2019-07-09 16:44:50,336 INFO  main                             -  <<Out Binding [bolt] Begins - com.atinbo.member.service.IAddressService:member-service01.
+2019-07-09 16:44:50,336 INFO  main                             -  <<Out Binding [bolt] Ends - com.atinbo.member.service.IAddressService:member-service01.
+2019-07-09 16:44:50,336 INFO  main                             - Register Service - com.atinbo.member.service.IAddressService:member-service01
+2019-07-09 16:44:50,337 INFO  main                             - Registering component: service:com.atinbo.member.service.IMemberDetailService:member-service01
+2019-07-09 16:44:50,337 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.atinbo.member.service.IMemberDetailService:member-service01.
+2019-07-09 16:44:50,337 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.atinbo.member.service.IMemberDetailService:member-service01.
+2019-07-09 16:44:50,337 INFO  main                             -  <<Out Binding [bolt] Begins - com.atinbo.member.service.IMemberDetailService:member-service01.
+2019-07-09 16:44:50,338 INFO  main                             -  <<Out Binding [bolt] Ends - com.atinbo.member.service.IMemberDetailService:member-service01.
+2019-07-09 16:44:50,338 INFO  main                             - Register Service - com.atinbo.member.service.IMemberDetailService:member-service01
+2019-07-09 16:44:50,341 INFO  main                             - Registering component: service:com.atinbo.member.service.IAuthorizeService:member-service01
+2019-07-09 16:44:50,341 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.atinbo.member.service.IAuthorizeService:member-service01.
+2019-07-09 16:44:50,342 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.atinbo.member.service.IAuthorizeService:member-service01.
+2019-07-09 16:44:50,342 INFO  main                             -  <<Out Binding [bolt] Begins - com.atinbo.member.service.IAuthorizeService:member-service01.
+2019-07-09 16:44:50,343 INFO  main                             -  <<Out Binding [bolt] Ends - com.atinbo.member.service.IAuthorizeService:member-service01.
+2019-07-09 16:44:50,343 INFO  main                             - Register Service - com.atinbo.member.service.IAuthorizeService:member-service01
+2019-07-09 16:44:50,343 INFO  main                             - Registering component: service:com.atinbo.member.service.IMemberFamilyService:member-service01
+2019-07-09 16:44:50,343 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.atinbo.member.service.IMemberFamilyService:member-service01.
+2019-07-09 16:44:50,344 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.atinbo.member.service.IMemberFamilyService:member-service01.
+2019-07-09 16:44:50,344 INFO  main                             -  <<Out Binding [bolt] Begins - com.atinbo.member.service.IMemberFamilyService:member-service01.
+2019-07-09 16:44:50,344 INFO  main                             -  <<Out Binding [bolt] Ends - com.atinbo.member.service.IMemberFamilyService:member-service01.
+2019-07-09 16:44:50,344 INFO  main                             - Register Service - com.atinbo.member.service.IMemberFamilyService:member-service01
+2019-07-09 16:50:48,371 INFO  main                             - SOFABoot Runtime Starting!
+2019-07-09 16:51:15,817 INFO  main                             - Registering component: service:com.atinbo.member.service.IMemberService:member-service
+2019-07-09 16:51:15,817 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.atinbo.member.service.IMemberService:member-service.
+2019-07-09 16:51:20,893 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.atinbo.member.service.IMemberService:member-service.
+2019-07-09 16:51:20,894 INFO  main                             -  <<Out Binding [bolt] Begins - com.atinbo.member.service.IMemberService:member-service.
+2019-07-09 16:51:20,925 INFO  main                             -  <<Out Binding [bolt] Ends - com.atinbo.member.service.IMemberService:member-service.
+2019-07-09 16:51:20,925 INFO  main                             - Register Service - com.atinbo.member.service.IMemberService:member-service
+2019-07-09 16:51:20,928 INFO  main                             - Registering component: service:com.atinbo.member.service.IAddressService:member-service
+2019-07-09 16:51:20,928 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.atinbo.member.service.IAddressService:member-service.
+2019-07-09 16:51:20,929 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.atinbo.member.service.IAddressService:member-service.
+2019-07-09 16:51:20,929 INFO  main                             -  <<Out Binding [bolt] Begins - com.atinbo.member.service.IAddressService:member-service.
+2019-07-09 16:51:20,929 INFO  main                             -  <<Out Binding [bolt] Ends - com.atinbo.member.service.IAddressService:member-service.
+2019-07-09 16:51:20,929 INFO  main                             - Register Service - com.atinbo.member.service.IAddressService:member-service
+2019-07-09 16:51:20,930 INFO  main                             - Registering component: service:com.atinbo.member.service.IMemberDetailService:member-service
+2019-07-09 16:51:20,930 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.atinbo.member.service.IMemberDetailService:member-service.
+2019-07-09 16:51:20,930 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.atinbo.member.service.IMemberDetailService:member-service.
+2019-07-09 16:51:20,930 INFO  main                             -  <<Out Binding [bolt] Begins - com.atinbo.member.service.IMemberDetailService:member-service.
+2019-07-09 16:51:20,931 INFO  main                             -  <<Out Binding [bolt] Ends - com.atinbo.member.service.IMemberDetailService:member-service.
+2019-07-09 16:51:20,931 INFO  main                             - Register Service - com.atinbo.member.service.IMemberDetailService:member-service
+2019-07-09 16:51:20,932 INFO  main                             - Registering component: service:com.atinbo.member.service.IAuthorizeService:member-service
+2019-07-09 16:51:20,932 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.atinbo.member.service.IAuthorizeService:member-service.
+2019-07-09 16:51:20,932 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.atinbo.member.service.IAuthorizeService:member-service.
+2019-07-09 16:51:20,932 INFO  main                             -  <<Out Binding [bolt] Begins - com.atinbo.member.service.IAuthorizeService:member-service.
+2019-07-09 16:51:20,933 INFO  main                             -  <<Out Binding [bolt] Ends - com.atinbo.member.service.IAuthorizeService:member-service.
+2019-07-09 16:51:20,933 INFO  main                             - Register Service - com.atinbo.member.service.IAuthorizeService:member-service
+2019-07-09 16:51:20,933 INFO  main                             - Registering component: service:com.atinbo.member.service.IMemberFamilyService:member-service
+2019-07-09 16:51:20,933 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.atinbo.member.service.IMemberFamilyService:member-service.
+2019-07-09 16:51:20,934 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.atinbo.member.service.IMemberFamilyService:member-service.
+2019-07-09 16:51:20,934 INFO  main                             -  <<Out Binding [bolt] Begins - com.atinbo.member.service.IMemberFamilyService:member-service.
+2019-07-09 16:51:20,936 INFO  main                             -  <<Out Binding [bolt] Ends - com.atinbo.member.service.IMemberFamilyService:member-service.
+2019-07-09 16:51:20,936 INFO  main                             - Register Service - com.atinbo.member.service.IMemberFamilyService:member-service
+2019-07-09 16:51:38,408 INFO  main                             - SOFABoot Runtime Starting!
+2019-07-09 16:51:50,107 INFO  main                             - Registering component: reference:com.atinbo.member.service.IAddressService:member-service#-959566804
+2019-07-09 16:51:50,107 INFO  main                             -  >>In Binding [bolt] Begins - com.atinbo.member.service.IAddressService:member-service.
+2019-07-09 16:52:01,349 INFO  main                             -  >>In Binding [bolt] Ends - com.atinbo.member.service.IAddressService:member-service.
+2019-07-09 16:52:01,349 INFO  main                             -  >>In Binding [jvm] Begins - com.atinbo.member.service.IAddressService:member-service.
+2019-07-09 16:52:01,352 INFO  main                             -  >>In Binding [jvm] Ends - com.atinbo.member.service.IAddressService:member-service.

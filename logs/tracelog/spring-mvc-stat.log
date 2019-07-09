@@ -17,3 +17,6 @@
 {"time":"2019-07-09 14:24:58.866","stat.key":{"method":"GET","local.app":"member-service","request.url":"http://127.0.0.1:8008/error"},"count":1,"total.cost.milliseconds":80,"success":"false","load.test":"F"}
 {"time":"2019-07-09 14:24:58.866","stat.key":{"method":"GET","local.app":"member-service","request.url":"http://127.0.0.1:8008/actuator/httptrace"},"count":1,"total.cost.milliseconds":108,"success":"true","load.test":"F"}
 {"time":"2019-07-09 14:24:58.867","stat.key":{"method":"GET","local.app":"member-service","request.url":"http://127.0.0.1:8008/actuator/threaddump"},"count":1,"total.cost.milliseconds":261,"success":"true","load.test":"F"}
+{"time":"2019-07-09 16:52:55.296","stat.key":{"method":"GET","local.app":"member-web","request.url":"http://localhost:8080/members"},"count":1,"total.cost.milliseconds":5232,"success":"true","load.test":"F"}
+{"time":"2019-07-09 16:54:55.297","stat.key":{"method":"GET","local.app":"member-web","request.url":"http://localhost:8080/members"},"count":1,"total.cost.milliseconds":34,"success":"true","load.test":"F"}
+{"time":"2019-07-09 16:55:55.300","stat.key":{"method":"GET","local.app":"member-web","request.url":"http://localhost:8080/members"},"count":5,"total.cost.milliseconds":97,"success":"true","load.test":"F"}

@@ -1,17 +1,20 @@
-2019-07-08 18:47:12,025 INFO  main                             - SOFABoot HealthCheck Starting!
-2019-07-08 18:47:46,226 INFO  main                             - Found 1 HealthChecker implementation:sofaComponentHealthChecker
-2019-07-08 18:47:46,228 INFO  main                             - Found 2 HealthIndicator implementation:sofaBootHealthIndicator,diskSpaceHealthIndicator
-2019-07-08 18:47:46,230 INFO  main                             - Found 1 ReadinessCheckCallback implementation: rpcAfterHealthCheckCallback
-2019-07-08 18:47:46,230 INFO  main                             - Begin SOFABoot HealthChecker readiness check.
-2019-07-08 18:47:46,232 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check success with 0 retry.
-2019-07-08 18:47:46,232 INFO  main                             - SOFABoot HealthChecker readiness check result: success.
-2019-07-08 18:47:46,232 INFO  main                             - Begin SOFABoot HealthIndicator readiness check.
-2019-07-08 18:47:46,233 INFO  main                             - HealthIndicator[diskSpaceHealthIndicator] readiness check success.
-2019-07-08 18:47:46,233 INFO  main                             - SOFABoot HealthIndicator readiness check result: success.
-2019-07-08 18:47:46,233 INFO  main                             - Begin ReadinessCheckCallback readiness check
-2019-07-08 18:47:46,241 INFO  main                             - SOFABoot ReadinessCheckCallback[rpcAfterHealthCheckCallback] check success.
-2019-07-08 18:47:46,242 INFO  main                             - ReadinessCheckCallback readiness check result: success.
-2019-07-08 18:47:46,242 INFO  main                             - Readiness check result: success
-2019-07-08 18:47:46,796 INFO  RMI TCP Connection(6)-127.0.0.1  - Begin SOFABoot HealthChecker liveness check.
-2019-07-08 18:47:46,799 INFO  RMI TCP Connection(6)-127.0.0.1  - HealthChecker[sofaComponentHealthChecker] liveness check success with 0 retry.
-2019-07-08 18:47:46,799 INFO  RMI TCP Connection(6)-127.0.0.1  - SOFABoot HealthChecker liveness check result: success.
+2019-07-09 16:51:38,369 INFO  main                             - SOFABoot HealthCheck Starting!
+2019-07-09 16:52:12,087 INFO  main                             - Found 1 HealthChecker implementation:sofaComponentHealthChecker
+2019-07-09 16:52:12,089 INFO  main                             - Found 2 HealthIndicator implementation:sofaBootHealthIndicator,diskSpaceHealthIndicator
+2019-07-09 16:52:12,089 INFO  main                             - Found 1 ReadinessCheckCallback implementation: rpcAfterHealthCheckCallback
+2019-07-09 16:52:12,090 INFO  main                             - Begin SOFABoot HealthChecker readiness check.
+2019-07-09 16:52:12,091 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check success with 0 retry.
+2019-07-09 16:52:12,091 INFO  main                             - SOFABoot HealthChecker readiness check result: success.
+2019-07-09 16:52:12,092 INFO  main                             - Begin SOFABoot HealthIndicator readiness check.
+2019-07-09 16:52:12,092 INFO  main                             - HealthIndicator[diskSpaceHealthIndicator] readiness check success.
+2019-07-09 16:52:12,092 INFO  main                             - SOFABoot HealthIndicator readiness check result: success.
+2019-07-09 16:52:12,092 INFO  main                             - Begin ReadinessCheckCallback readiness check
+2019-07-09 16:52:12,099 INFO  main                             - SOFABoot ReadinessCheckCallback[rpcAfterHealthCheckCallback] check success.
+2019-07-09 16:52:12,099 INFO  main                             - ReadinessCheckCallback readiness check result: success.
+2019-07-09 16:52:12,099 INFO  main                             - Readiness check result: success
+2019-07-09 16:52:12,321 INFO  RMI TCP Connection(7)-127.0.0.1  - Begin SOFABoot HealthChecker liveness check.
+2019-07-09 16:52:12,321 INFO  RMI TCP Connection(7)-127.0.0.1  - HealthChecker[sofaComponentHealthChecker] liveness check success with 0 retry.
+2019-07-09 16:52:12,322 INFO  RMI TCP Connection(7)-127.0.0.1  - SOFABoot HealthChecker liveness check result: success.
+2019-07-09 16:52:29,110 INFO  RMI TCP Connection(9)-127.0.0.1  - Begin SOFABoot HealthChecker liveness check.
+2019-07-09 16:52:29,110 INFO  RMI TCP Connection(9)-127.0.0.1  - HealthChecker[sofaComponentHealthChecker] liveness check success with 0 retry.
+2019-07-09 16:52:29,110 INFO  RMI TCP Connection(9)-127.0.0.1  - SOFABoot HealthChecker liveness check result: success.

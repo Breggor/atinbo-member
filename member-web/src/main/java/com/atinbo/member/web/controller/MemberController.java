@@ -3,7 +3,6 @@ package com.atinbo.member.web.controller;
 import com.alipay.sofa.runtime.api.annotation.SofaReference;
 import com.alipay.sofa.runtime.api.annotation.SofaReferenceBinding;
 import com.atinbo.member.service.IAddressService;
-import com.atinbo.member.web.model.BalanceResponse;
 import com.atinbo.member.web.model.ProductVO;
 import com.atinbo.member.web.model.Success;
 import org.springframework.stereotype.Controller;
@@ -21,7 +20,7 @@ public class MemberController {
 
 
     /**
-     * 查询商品信息
+     * 查询会员
      */
     @GetMapping
     @ResponseBody
@@ -30,38 +29,29 @@ public class MemberController {
     }
 
     /**
-     * 查询排序后的商品信息（演示动态模块）
+     * 新建会员
      */
-    @RequestMapping(value = "/querySorted", method = RequestMethod.POST)
+    @PostMapping
     @ResponseBody
-    List<ProductVO> querySorted(@RequestBody String body) {
+    List<ProductVO> create(@RequestBody String body) {
         return null;
     }
 
     /**
-     * 购买
+     * 编辑会员
      */
-    @RequestMapping(value = "/purchase", method = RequestMethod.POST)
+    @PutMapping
     @ResponseBody
-    Success purchase(@RequestBody String body) {
+    Success edit(@RequestBody String body) {
         return null;
     }
 
     /**
      * BalanceMng的RPC代理为Web创建用户
      */
-    @RequestMapping(value = "/createUser", method = RequestMethod.POST)
+    @DeleteMapping
     @ResponseBody
-    Success createUser(@RequestBody String body) {
-        return null;
-    }
-
-    /**
-     * BalanceMng的RPC代理为Web查询余额
-     */
-    @RequestMapping(value = "/queryBalance", method = RequestMethod.POST)
-    @ResponseBody
-    BalanceResponse queryBalance(@RequestBody String body) {
+    Success delete(@RequestBody String body) {
         return null;
     }
 }

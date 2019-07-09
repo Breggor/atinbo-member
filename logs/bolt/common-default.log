@@ -5,3 +5,7 @@
 2019-07-09 14:36:31,964 WARN  [RemotingServer#56] [main] Initialize the server.
 2019-07-09 14:36:32,004 WARN  [RemotingServer#92] [main] Server started on 0.0.0.0:22200
 2019-07-09 14:42:43,267 WARN  [BaseRemoting#90] [SyncConfigThread] Wait response, request id=52 timeout!
+2019-07-09 16:44:50,680 WARN  [RemotingServer#56] [main] Initialize the server.
+2019-07-09 16:44:50,727 WARN  [RemotingServer#92] [main] Server started on 0.0.0.0:22200
+2019-07-09 16:51:21,303 WARN  [RemotingServer#56] [main] Initialize the server.
+2019-07-09 16:51:21,348 WARN  [RemotingServer#92] [main] Server started on 0.0.0.0:22200

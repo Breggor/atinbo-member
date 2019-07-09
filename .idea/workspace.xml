@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54aa093c-6a5a-4961-9ad8-8e999cb66006" name="Default" comment="init">
-      <change afterPath="$PROJECT_DIR$/member-api/src/main/java/com/atinbo/member/model/MemberBO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/member-api/src/main/java/com/atinbo/member/model/MemberParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/member-service/src/main/java/com/atinbo/member/mapper/AddressMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/member-service/src/main/java/com/atinbo/member/mapper/MemberMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/member-service/src/main/java/com/atinbo/member/mapper/MemberMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/member-service/src/main/java/com/atinbo/member/service/MemberServiceImpl01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member-api/member-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/member-api/member-api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member-api/src/main/java/com/atinbo/member/service/IMemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/member-api/src/main/java/com/atinbo/member/service/IMemberService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member-service/member-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/member-service/member-service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member-service/src/main/java/com/atinbo/member/service/AddressServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/member-service/src/main/java/com/atinbo/member/service/AddressServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member-web/member-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/member-web/member-web.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member-web/src/main/java/com/atinbo/member/web/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/member-web/src/main/java/com/atinbo/member/web/controller/MemberController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member-service/src/main/java/com/atinbo/member/service/MemberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/member-service/src/main/java/com/atinbo/member/service/MemberServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member-service/src/main/java/com/atinbo/member/service/MemberServiceImpl01.java" beforeDir="false" />
     </list>
     <ignored path="member-parent.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -130,20 +119,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/member-service/src/main/java/com/atinbo/member/service/MemberServiceImpl01.java">
+        <entry file="file://$PROJECT_DIR$/member-service/src/main/java/com/atinbo/member/service/MemberServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            <state relative-caret-position="111">
+              <caret line="13" column="41" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#591#592#0" expanded="true" />
-                <element signature="e#618#619#0" expanded="true" />
-                <element signature="e#727#728#0" expanded="true" />
-                <element signature="e#753#754#0" expanded="true" />
-                <element signature="e#797#798#0" expanded="true" />
-                <element signature="e#860#861#0" expanded="true" />
-                <element signature="e#1018#1019#0" expanded="true" />
-                <element signature="e#1050#1051#0" expanded="true" />
+                <element signature="e#405#406#0" expanded="true" />
+                <element signature="e#432#433#0" expanded="true" />
+                <element signature="e#502#503#0" expanded="true" />
+                <element signature="e#529#530#0" expanded="true" />
+                <element signature="e#592#593#0" expanded="true" />
+                <element signature="e#619#620#0" expanded="true" />
+                <element signature="e#680#681#0" expanded="true" />
+                <element signature="e#707#708#0" expanded="true" />
+                <element signature="e#759#760#0" expanded="true" />
+                <element signature="e#787#788#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -152,8 +143,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/member-api/src/main/java/com/atinbo/member/service/IMemberService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-230">
-              <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+            <state relative-caret-position="92">
+              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -164,8 +155,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/member-api/src/main/java/com/atinbo/member/model/MemberBO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+            <state relative-caret-position="92">
+              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -185,7 +176,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/member-api/src/main/java/com/atinbo/member/model/MemberParam.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
+            <state relative-caret-position="69">
               <caret line="5" selection-start-line="5" selection-end-line="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -258,7 +249,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/member-service/src/main/java/com/atinbo/member/service/MemberServiceImpl.java" />
         <option value="$PROJECT_DIR$/member-web/src/main/java/com/atinbo/member/impl/BookStoreControllerImpl.java" />
         <option value="$PROJECT_DIR$/member-web/src/main/java/com/atinbo/member/BookStoreController.java" />
         <option value="$PROJECT_DIR$/member-web/src/main/java/com/atinbo/member/model/ProductInfo.java" />
@@ -304,11 +294,12 @@
         <option value="$PROJECT_DIR$/member-service/src/main/java/com/atinbo/member/mapper/MemberMapper.java" />
         <option value="$PROJECT_DIR$/member-api/src/main/java/com/atinbo/member/model/MemberVO.java" />
         <option value="$PROJECT_DIR$/member-api/src/main/java/com/atinbo/member/model/MemverParam.java" />
-        <option value="$PROJECT_DIR$/member-service/src/main/java/com/atinbo/member/service/MemberServiceImpl01.java" />
         <option value="$PROJECT_DIR$/member-api/src/main/java/com/atinbo/member/service/MemberService.java" />
         <option value="$PROJECT_DIR$/member-api/src/main/java/com/atinbo/member/service/IMemberService.java" />
         <option value="$PROJECT_DIR$/member-api/src/main/java/com/atinbo/member/model/MemberBO.java" />
         <option value="$PROJECT_DIR$/member-api/src/main/java/com/atinbo/member/model/MemberParam.java" />
+        <option value="$PROJECT_DIR$/member-service/src/main/java/com/atinbo/member/service/MemberServiceImpl01.java" />
+        <option value="$PROJECT_DIR$/member-service/src/main/java/com/atinbo/member/service/MemberServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -339,39 +330,7 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Profiles" type="6783ec58:MavenProjectsStructure$ProfilesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="atinbo-member" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="atinbo-member" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="member-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="member-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="member-web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="member-web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -391,6 +350,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -442,152 +402,12 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="member" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="atinbo-member" type="b2602c69:ProjectViewProjectNode" />
-              <item name="atinbo-member" type="462c0819:PsiDirectoryNode" />
-              <item name="member-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="member" type="462c0819:PsiDirectoryNode" />
-              <item name="consts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="atinbo-member" type="b2602c69:ProjectViewProjectNode" />
-              <item name="atinbo-member" type="462c0819:PsiDirectoryNode" />
-              <item name="member-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="member" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="atinbo-member" type="b2602c69:ProjectViewProjectNode" />
-              <item name="atinbo-member" type="462c0819:PsiDirectoryNode" />
-              <item name="member-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="member" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="atinbo-member" type="b2602c69:ProjectViewProjectNode" />
-              <item name="atinbo-member" type="462c0819:PsiDirectoryNode" />
-              <item name="member-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="member" type="462c0819:PsiDirectoryNode" />
-              <item name="repo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="atinbo-member" type="b2602c69:ProjectViewProjectNode" />
-              <item name="atinbo-member" type="462c0819:PsiDirectoryNode" />
-              <item name="member-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="member" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="atinbo-member" type="b2602c69:ProjectViewProjectNode" />
-              <item name="atinbo-member" type="462c0819:PsiDirectoryNode" />
-              <item name="member-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="atinbo-member" type="b2602c69:ProjectViewProjectNode" />
-              <item name="atinbo-member" type="462c0819:PsiDirectoryNode" />
-              <item name="member-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="atinbo-member" type="b2602c69:ProjectViewProjectNode" />
-              <item name="atinbo-member" type="462c0819:PsiDirectoryNode" />
-              <item name="member-web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="atinbo-member" type="b2602c69:ProjectViewProjectNode" />
-              <item name="atinbo-member" type="462c0819:PsiDirectoryNode" />
-              <item name="member-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="atinbo-member" type="b2602c69:ProjectViewProjectNode" />
-              <item name="atinbo-member" type="462c0819:PsiDirectoryNode" />
-              <item name="member-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="atinbo-member" type="b2602c69:ProjectViewProjectNode" />
-              <item name="atinbo-member" type="462c0819:PsiDirectoryNode" />
-              <item name="member-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="atinbo-member" type="b2602c69:ProjectViewProjectNode" />
-              <item name="atinbo-member" type="462c0819:PsiDirectoryNode" />
-              <item name="member-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="atinbo-member" type="b2602c69:ProjectViewProjectNode" />
-              <item name="atinbo-member" type="462c0819:PsiDirectoryNode" />
-              <item name="member-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="atinbo-member" type="b2602c69:ProjectViewProjectNode" />
-              <item name="atinbo-member" type="462c0819:PsiDirectoryNode" />
-              <item name="member-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="atinbo-member" type="b2602c69:ProjectViewProjectNode" />
-              <item name="atinbo-member" type="462c0819:PsiDirectoryNode" />
-              <item name="member-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="atinbo-member" type="b2602c69:ProjectViewProjectNode" />
-              <item name="atinbo-member" type="462c0819:PsiDirectoryNode" />
-              <item name="member-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -895,6 +715,7 @@
       <workItem from="1562664530507" duration="159000" />
       <workItem from="1562665230836" duration="389000" />
       <workItem from="1562667516072" duration="7649000" />
+      <workItem from="1562675207353" duration="560000" />
     </task>
     <task id="LOCAL-00001" summary="注册用户修改">
       <created>1492170722755</created>
@@ -1057,7 +878,14 @@
       <option name="project" value="LOCAL" />
       <updated>1562664576064</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="init">
+      <created>1562675378597</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1562675378597</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1093,7 +921,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103640000" />
+    <option name="totallyTimeSpent" value="104200000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1106,11 +934,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1015" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Capture Tool" order="0" />
       <window_info id="Image Layers" order="1" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.27345416" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.27665246" />
       <window_info id="Structure" order="3" weight="0.25" />
       <window_info id="Designer" order="4" />
       <window_info id="UI Designer" order="5" />
@@ -1379,13 +1206,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/member-service/src/main/java/com/atinbo/member/repo/mapper/AddressMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/member-service/src/main/java/com/atinbo/member/repo/mapper/AddressMapper.java" />
     <entry file="file://$PROJECT_DIR$/member-service/src/main/java/com/atinbo/member/service/MemberFamilyServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -1434,30 +1255,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/member-service/src/main/java/com/atinbo/member/service/MemberService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/member-api/src/main/java/com/atinbo/member/service/IMemberService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2484">
-          <caret line="157" column="41" lean-forward="true" selection-start-line="157" selection-start-column="4" selection-end-line="157" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/member-service/src/main/java/com/atinbo/member/service/MemberServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-598">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/member-service/src/main/java/com/atinbo/member/service/MemberService.java" />
     <entry file="file://$PROJECT_DIR$/member-web/src/main/java/com/atinbo/member/web/model/BalanceResponse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -1558,13 +1356,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/member-api/src/main/java/com/atinbo/member/model/UserDetailBO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.8/lombok-1.18.8.jar!/lombok/Data.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -1572,10 +1363,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/member-api/src/main/java/com/atinbo/member/service/IMemberService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/member-api/src/main/java/com/atinbo/member/model/MemberBO.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/member-api/src/main/java/com/atinbo/member/model/UserDetailBO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/member-api/src/main/java/com/atinbo/member/model/MemberParam.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
-          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1589,40 +1407,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/member-api/src/main/java/com/atinbo/member/model/MemberParam.java">
+    <entry file="file://$PROJECT_DIR$/member-service/src/main/java/com/atinbo/member/service/MemberServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="23">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/member-api/src/main/java/com/atinbo/member/service/IMemberService.java">
+    <entry file="file://$PROJECT_DIR$/member-service/src/main/java/com/atinbo/member/service/MemberServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-230">
-          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        <state relative-caret-position="111">
+          <caret line="13" column="41" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/member-service/src/main/java/com/atinbo/member/service/MemberServiceImpl01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#591#592#0" expanded="true" />
-            <element signature="e#618#619#0" expanded="true" />
-            <element signature="e#727#728#0" expanded="true" />
-            <element signature="e#753#754#0" expanded="true" />
-            <element signature="e#797#798#0" expanded="true" />
-            <element signature="e#860#861#0" expanded="true" />
-            <element signature="e#1018#1019#0" expanded="true" />
-            <element signature="e#1050#1051#0" expanded="true" />
+            <element signature="e#405#406#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
+            <element signature="e#619#620#0" expanded="true" />
+            <element signature="e#680#681#0" expanded="true" />
+            <element signature="e#707#708#0" expanded="true" />
+            <element signature="e#759#760#0" expanded="true" />
+            <element signature="e#787#788#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -9,3 +9,5 @@
 2019-07-09 16:44:50,727 WARN  [RemotingServer#92] [main] Server started on 0.0.0.0:22200
 2019-07-09 16:51:21,303 WARN  [RemotingServer#56] [main] Initialize the server.
 2019-07-09 16:51:21,348 WARN  [RemotingServer#92] [main] Server started on 0.0.0.0:22200
+2019-07-09 17:02:45,460 INFO  [Connection$1#308] [Rpc-netty-client-worker-1-thread-2] Close the connection to remote address=192.168.6.80:22200, result=true, cause=null
+2019-07-09 17:02:45,460 WARN  [DefaultConnectionManager#339] [Rpc-netty-client-worker-1-thread-2] Remove and close the last connection in ConnectionPool with poolKey 192.168.6.80:22200

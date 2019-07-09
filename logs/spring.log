@@ -339,3 +339,8 @@
 2019-07-09 16:52:12.137  INFO 32724 --- [main] o.s.b.web.embedded.jetty.JettyWebServer  : Jetty started on port(s) 8080 (http/1.1) with context path '/'
 2019-07-09 16:52:12.141  INFO 32724 --- [main] com.atinbo.member.web.Starter            : Started Starter in 44.547 seconds (JVM running for 55.536)
 2019-07-09 16:52:27.702  INFO 32724 --- [qtp1732005742-84] trationDelegate$BeanPostProcessorChecker : Bean 'mvcHandlerMappingIntrospector' of type [org.springframework.web.servlet.handler.HandlerMappingIntrospector] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-09 17:02:46.345  INFO 32724 --- [Thread-114] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-09 17:02:46.358  INFO 32724 --- [Thread-114] o.e.jetty.server.AbstractConnector       : Stopped ServerConnector@29d2fa84{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2019-07-09 17:02:46.358  INFO 32724 --- [Thread-114] org.eclipse.jetty.server.session         : node0 Stopped scavenging
+2019-07-09 17:02:46.360  INFO 32724 --- [Thread-114] o.e.j.s.h.ContextHandler.application     : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2019-07-09 17:02:46.361  INFO 32724 --- [Thread-114] o.e.jetty.server.handler.ContextHandler  : Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@5d66e944{application,/,[file:///private/var/folders/ln/jcqg81cn2bsdr04_c55p4yrc0000gn/T/jetty-docbase.2469091035234932754.8080/],UNAVAILABLE}

@@ -21,3 +21,6 @@
 2019-07-09 16:52:01,135 INFO  [ConnectionEventHandler#290] [Rpc-netty-client-worker-1-thread-2] Connection channel active: 192.168.6.80:22200
 2019-07-09 16:52:01,137 INFO  [ConnectionEventHandler#290] [Rpc-netty-server-worker-1-thread-1] Connection channel registered: 192.168.6.80:49216
 2019-07-09 16:52:01,138 INFO  [ConnectionEventHandler#290] [Rpc-netty-server-worker-1-thread-1] Connection channel active: 192.168.6.80:49216
+2019-07-09 17:02:45,458 INFO  [ConnectionEventHandler#290] [Rpc-netty-client-worker-1-thread-2] Connection closed: 192.168.6.80:22200
+2019-07-09 17:02:45,460 INFO  [ConnectionEventHandler#290] [Rpc-netty-client-worker-1-thread-2] Connection channel inactive: 192.168.6.80:22200
+2019-07-09 17:02:45,460 INFO  [ConnectionEventHandler#290] [Rpc-netty-client-worker-1-thread-2] Connection channel unregistered: 192.168.6.80:22200

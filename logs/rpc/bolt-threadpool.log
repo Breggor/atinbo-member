@@ -348,3 +348,9 @@
 2019-07-09 16:58:26,511 INFO  RPC-RES-MONITOR                  RPC-BOLT-THREADPOOL - blockQueue:0, active:0, idle:7, poolSize:7
 2019-07-09 16:58:56,518 INFO  RPC-RES-MONITOR                  RPC-BOLT-THREADPOOL - blockQueue:0, active:0, idle:7, poolSize:7
 2019-07-09 16:59:26,521 INFO  RPC-RES-MONITOR                  RPC-BOLT-THREADPOOL - blockQueue:0, active:0, idle:7, poolSize:7
+2019-07-09 16:59:56,524 INFO  RPC-RES-MONITOR                  RPC-BOLT-THREADPOOL - blockQueue:0, active:0, idle:7, poolSize:7
+2019-07-09 17:00:26,530 INFO  RPC-RES-MONITOR                  RPC-BOLT-THREADPOOL - blockQueue:0, active:0, idle:7, poolSize:7
+2019-07-09 17:00:56,536 INFO  RPC-RES-MONITOR                  RPC-BOLT-THREADPOOL - blockQueue:0, active:0, idle:7, poolSize:7
+2019-07-09 17:01:26,541 INFO  RPC-RES-MONITOR                  RPC-BOLT-THREADPOOL - blockQueue:0, active:0, idle:7, poolSize:7
+2019-07-09 17:01:56,548 INFO  RPC-RES-MONITOR                  RPC-BOLT-THREADPOOL - blockQueue:0, active:0, idle:7, poolSize:7
+2019-07-09 17:02:26,552 INFO  RPC-RES-MONITOR                  RPC-BOLT-THREADPOOL - blockQueue:0, active:0, idle:7, poolSize:7

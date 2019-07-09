@@ -2,31 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54aa093c-6a5a-4961-9ad8-8e999cb66006" name="Default" comment="init">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/bolt/common-default.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/bolt/common-default.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/bolt/connection-event.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/bolt/connection-event.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/bolt/remoting-rpc.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/bolt/remoting-rpc.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/health-check/common-default.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/health-check/common-default.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/infra/common-default.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/infra/common-default.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/lookout/common-default.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/lookout/common-default.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/member-service/common-default.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/member-service/common-default.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/registry/registry-client.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/registry/registry-client.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/rpc/bolt-threadpool.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/rpc/bolt-threadpool.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/rpc/common-default.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/rpc/common-default.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/rpc/rpc-client.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/rpc/rpc-client.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/rpc/rpc-codec.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/rpc/rpc-codec.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/rpc/rpc-registry.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/rpc/rpc-registry.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/rpc/rpc-server.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/rpc/rpc-server.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/rpc/rpc-transport.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/rpc/rpc-transport.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/sofa-runtime/sofa-default.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/sofa-runtime/sofa-default.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/spring.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/tracelog/datasource-client-digest.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/tracelog/datasource-client-digest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/tracelog/datasource-client-stat.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/tracelog/datasource-client-stat.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/tracelog/spring-mvc-digest.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/tracelog/spring-mvc-digest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/tracelog/spring-mvc-stat.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/tracelog/spring-mvc-stat.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/tracelog/static-info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/tracelog/static-info.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/tracelog/tracer-self.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/tracelog/tracer-self.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member-web/src/main/java/com/atinbo/member/web/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/member-web/src/main/java/com/atinbo/member/web/controller/MemberController.java" afterDir="false" />
     </list>
     <ignored path="member-parent.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -163,8 +140,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/member-web/src/main/java/com/atinbo/member/web/controller/MemberController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="42" column="15" lean-forward="true" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="15" />
+            <state relative-caret-position="481">
+              <caret line="42" column="15" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1108#1109#0" expanded="true" />
@@ -454,85 +431,6 @@
               <item name="atinbo-member" type="b2602c69:ProjectViewProjectNode" />
               <item name="atinbo-member" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="atinbo-member" type="b2602c69:ProjectViewProjectNode" />
-              <item name="atinbo-member" type="462c0819:PsiDirectoryNode" />
-              <item name="member-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="atinbo-member" type="b2602c69:ProjectViewProjectNode" />
-              <item name="atinbo-member" type="462c0819:PsiDirectoryNode" />
-              <item name="member-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="atinbo-member" type="b2602c69:ProjectViewProjectNode" />
-              <item name="atinbo-member" type="462c0819:PsiDirectoryNode" />
-              <item name="member-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="atinbo-member" type="b2602c69:ProjectViewProjectNode" />
-              <item name="atinbo-member" type="462c0819:PsiDirectoryNode" />
-              <item name="member-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="atinbo-member" type="b2602c69:ProjectViewProjectNode" />
-              <item name="atinbo-member" type="462c0819:PsiDirectoryNode" />
-              <item name="member-web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="atinbo-member" type="b2602c69:ProjectViewProjectNode" />
-              <item name="atinbo-member" type="462c0819:PsiDirectoryNode" />
-              <item name="member-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="atinbo-member" type="b2602c69:ProjectViewProjectNode" />
-              <item name="atinbo-member" type="462c0819:PsiDirectoryNode" />
-              <item name="member-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="atinbo-member" type="b2602c69:ProjectViewProjectNode" />
-              <item name="atinbo-member" type="462c0819:PsiDirectoryNode" />
-              <item name="member-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="atinbo-member" type="b2602c69:ProjectViewProjectNode" />
-              <item name="atinbo-member" type="462c0819:PsiDirectoryNode" />
-              <item name="member-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="atinbo-member" type="b2602c69:ProjectViewProjectNode" />
-              <item name="atinbo-member" type="462c0819:PsiDirectoryNode" />
-              <item name="member-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="atinbo-member" type="b2602c69:ProjectViewProjectNode" />
-              <item name="atinbo-member" type="462c0819:PsiDirectoryNode" />
-              <item name="member-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -544,8 +442,8 @@
     <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth0" value="15" />
+    <property name="RequestMappingsPanelWidth1" value="15" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -879,7 +777,7 @@
       <workItem from="1562644479825" duration="247000" />
       <workItem from="1562648860413" duration="2016000" />
       <workItem from="1562652153866" duration="1000" />
-      <workItem from="1562652209115" duration="9879000" />
+      <workItem from="1562652209115" duration="10062000" />
     </task>
     <task id="LOCAL-00001" summary="注册用户修改">
       <created>1492170722755</created>
@@ -1028,7 +926,14 @@
       <option name="project" value="LOCAL" />
       <updated>1562662625469</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="init">
+      <created>1562662791261</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1562662791261</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1064,7 +969,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95260000" />
+    <option name="totallyTimeSpent" value="95443000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1077,7 +982,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35622317" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -1563,8 +1467,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/member-web/src/main/java/com/atinbo/member/web/controller/MemberController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="42" column="15" lean-forward="true" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="15" />
+        <state relative-caret-position="481">
+          <caret line="42" column="15" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1108#1109#0" expanded="true" />

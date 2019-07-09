@@ -93,3 +93,21 @@
 2019-07-09 16:51:55,336 INFO  main                             - Refer consumer config : bolt://com.atinbo.member.service.IAddressService:member-service with bean id rpc-cfg-0
 2019-07-09 16:52:27,796 INFO  qtp1732005742-84                 - Load tracer impl success: sofaTracer, com.alipay.sofa.rpc.tracer.sofatracer.RpcSofaTracer@1fde83a9
 2019-07-09 16:52:27,849 INFO  SOFA-SEV-BOLT-BIZ-22200-3-T1     - Load tracer impl success: sofaTracer, com.alipay.sofa.rpc.tracer.sofatracer.RpcSofaTracer@4cdca8b8
+2019-07-09 17:02:44,572 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework catch JVM shutdown event, Run shutdown hook now.
+2019-07-09 17:02:44,578 INFO  Thread-143                       - Unexport provider config : com.atinbo.member.service.IMemberDetailService:member-service:bolt with bean id rpc-cfg-2
+2019-07-09 17:02:44,579 INFO  Thread-143                       - Unexport provider config : com.atinbo.member.service.IMemberFamilyService:member-service:bolt with bean id rpc-cfg-4
+2019-07-09 17:02:44,579 INFO  Thread-143                       - Unexport provider config : com.atinbo.member.service.IAuthorizeService:member-service:bolt with bean id rpc-cfg-3
+2019-07-09 17:02:44,579 INFO  Thread-143                       - Unexport provider config : com.atinbo.member.service.IMemberService:member-service:bolt with bean id rpc-cfg-0
+2019-07-09 17:02:44,579 INFO  Thread-143                       - Unexport provider config : com.atinbo.member.service.IAddressService:member-service:bolt with bean id rpc-cfg-1
+2019-07-09 17:02:44,588 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: fault-tolerance
+2019-07-09 17:02:44,588 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer-resteasy
+2019-07-09 17:02:44,588 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: lookout
+2019-07-09 17:02:44,588 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer
+2019-07-09 17:02:44,590 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework has been release all resources ...
+2019-07-09 17:02:45,537 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework catch JVM shutdown event, Run shutdown hook now.
+2019-07-09 17:02:45,583 INFO  SOFA-RPC-ShutdownHook            - UnRefer consumer config : bolt://com.atinbo.member.service.IAddressService:member-service with bean id rpc-cfg-0
+2019-07-09 17:02:45,587 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: fault-tolerance
+2019-07-09 17:02:45,587 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer-resteasy
+2019-07-09 17:02:45,587 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: lookout
+2019-07-09 17:02:45,587 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer
+2019-07-09 17:02:45,588 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework has been release all resources ...

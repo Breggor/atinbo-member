@@ -2,8 +2,11 @@ package com.atinbo.member.web.controller;
 
 import com.alipay.sofa.runtime.api.annotation.SofaReference;
 import com.alipay.sofa.runtime.api.annotation.SofaReferenceBinding;
+import com.atinbo.member.model.MemberQuery;
 import com.atinbo.member.service.IAddressService;
-import com.atinbo.member.web.model.ProductVO;
+import com.atinbo.member.service.IMemberService;
+import com.atinbo.member.web.model.MemberForm;
+import com.atinbo.member.web.model.MemberVO;
 import com.atinbo.member.web.model.Success;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
@@ -15,17 +18,26 @@ import java.util.List;
 @RequestMapping("/members")
 public class MemberController {
 
-    @SofaReference(interfaceType = IAddressService.class, uniqueId = "${service.unique.id}", binding = @SofaReferenceBinding(bindingType = "bolt"))
-    private IAddressService addressService;
+    @SofaReference(interfaceType = IMemberService.class, uniqueId = "${service.unique.id}", binding = @SofaReferenceBinding(bindingType = "bolt"))
+    private IMemberService memberService;
 
+
+    /**
+     * 会员信息
+     */
+    @GetMapping("/{id}")
+    @ResponseBody
+    MemberVO view(@PathVariable("id") Long id) {
+        return null;
+    }
 
     /**
      * 查询会员
      */
     @GetMapping
     @ResponseBody
-    String query(@RequestBody String body) {
-        return addressService.findAddressBy(1L).toString();
+    List<MemberVO> query(@RequestBody MemberQuery query) {
+        return null;
     }
 
     /**
@@ -33,25 +45,25 @@ public class MemberController {
      */
     @PostMapping
     @ResponseBody
-    List<ProductVO> create(@RequestBody String body) {
+    MemberVO create(@RequestBody MemberForm form) {
         return null;
     }
 
     /**
      * 编辑会员
      */
-    @PutMapping
+    @PutMapping("/{id}")
     @ResponseBody
-    Success edit(@RequestBody String body) {
+    MemberVO edit(@PathVariable("id") Long id, @RequestBody MemberForm form) {
         return null;
     }
 
     /**
-     * BalanceMng的RPC代理为Web创建用户
+     * 删除会员
      */
-    @DeleteMapping
+    @DeleteMapping("/{id}")
     @ResponseBody
-    Success delete(@RequestBody String body) {
+    Success delete(@PathVariable("id") Long id) {
         return null;
     }
 }

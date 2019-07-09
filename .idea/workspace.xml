@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="54aa093c-6a5a-4961-9ad8-8e999cb66006" name="Default" comment="init">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member-service/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/member-service/src/main/resources/application-dev.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member-service/src/test/java/com/atinbo/member/TagRepoTestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/member-service/src/test/java/com/atinbo/member/TagRepoTestCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member-web/src/main/java/com/atinbo/member/web/controller/impl/MemberControllerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/member-web/src/main/java/com/atinbo/member/web/controller/impl/MemberControllerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member-service/member-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/member-service/member-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/member-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/member-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="member-parent.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -16,6 +16,70 @@
     <ignored path="$PROJECT_DIR$/user-service/target/" />
     <ignored path="$PROJECT_DIR$/user-api/target/" />
     <ignored path="$PROJECT_DIR$/member-web/target/" />
+    <ignored path="logs/bolt/common-default.log" />
+    <ignored path="logs/bolt/common-error.log" />
+    <ignored path="logs/bolt/connection-event.log" />
+    <ignored path="logs/bolt/remoting-http.log" />
+    <ignored path="logs/bolt/remoting-msg.log" />
+    <ignored path="logs/bolt/remoting-rpc.log" />
+    <ignored path="logs/bolt/remoting-tr-adapter.log" />
+    <ignored path="logs/health-check/common-default.log" />
+    <ignored path="logs/health-check/common-error.log" />
+    <ignored path="logs/infra/common-default.log" />
+    <ignored path="logs/infra/common-error.log" />
+    <ignored path="logs/lookout/common-default.log" />
+    <ignored path="logs/lookout/common-error.log" />
+    <ignored path="logs/member-service/common-default.log" />
+    <ignored path="logs/member-service/common-error.log" />
+    <ignored path="logs/registry/common-default.log" />
+    <ignored path="logs/registry/common-error.log" />
+    <ignored path="logs/registry/registry-client.log" />
+    <ignored path="logs/rpc/bolt-threadpool.log" />
+    <ignored path="logs/rpc/common-default.log" />
+    <ignored path="logs/rpc/common-error.log" />
+    <ignored path="logs/rpc/rpc-client.log" />
+    <ignored path="logs/rpc/rpc-codec.log" />
+    <ignored path="logs/rpc/rpc-registry.log" />
+    <ignored path="logs/rpc/rpc-server.log" />
+    <ignored path="logs/rpc/rpc-transport.log" />
+    <ignored path="logs/sofa-runtime/common-error.log" />
+    <ignored path="logs/sofa-runtime/sofa-default.log" />
+    <ignored path="logs/tracelog/static-info.log" />
+    <ignored path="logs/tracelog/tracer-self.log" />
+    <ignored path="logs/spring.log" />
+    <ignored path="member-service/logs/bolt/common-default.log" />
+    <ignored path="member-service/logs/bolt/common-error.log" />
+    <ignored path="member-service/logs/bolt/connection-event.log" />
+    <ignored path="member-service/logs/bolt/remoting-http.log" />
+    <ignored path="member-service/logs/bolt/remoting-msg.log" />
+    <ignored path="member-service/logs/bolt/remoting-rpc.log" />
+    <ignored path="member-service/logs/bolt/remoting-tr-adapter.log" />
+    <ignored path="member-service/logs/infra/common-default.log" />
+    <ignored path="member-service/logs/infra/common-error.log" />
+    <ignored path="member-service/logs/lookout/common-default.log" />
+    <ignored path="member-service/logs/lookout/common-error.log" />
+    <ignored path="member-service/logs/member-service/common-default.log" />
+    <ignored path="member-service/logs/member-service/common-error.log" />
+    <ignored path="member-service/logs/registry/common-default.log" />
+    <ignored path="member-service/logs/registry/common-error.log" />
+    <ignored path="member-service/logs/registry/registry-client.log" />
+    <ignored path="member-service/logs/rpc/bolt-threadpool.log" />
+    <ignored path="member-service/logs/rpc/common-default.log" />
+    <ignored path="member-service/logs/rpc/common-error.log" />
+    <ignored path="member-service/logs/rpc/rpc-client.log" />
+    <ignored path="member-service/logs/rpc/rpc-codec.log" />
+    <ignored path="member-service/logs/rpc/rpc-registry.log" />
+    <ignored path="member-service/logs/rpc/rpc-server.log" />
+    <ignored path="member-service/logs/rpc/rpc-transport.log" />
+    <ignored path="member-service/logs/sofa-runtime/common-error.log" />
+    <ignored path="member-service/logs/sofa-runtime/sofa-default.log" />
+    <ignored path="member-service/logs/tracelog/shadow/datasource-client-digest.log" />
+    <ignored path="member-service/logs/tracelog/shadow/datasource-client-stat.log" />
+    <ignored path="member-service/logs/tracelog/datasource-client-digest.log" />
+    <ignored path="member-service/logs/tracelog/datasource-client-stat.log" />
+    <ignored path="member-service/logs/tracelog/static-info.log" />
+    <ignored path="member-service/logs/tracelog/tracer-self.log" />
+    <ignored path="member-service/logs/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,14 +119,85 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/member-service/src/main/java/com/atinbo/member/Starter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="64" column="31" selection-start-line="64" selection-start-column="27" selection-end-line="64" selection-end-column="31" />
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/member-service/src/main/resources/application-dev.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="11" selection-start-column="6" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/member-service/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/member-service/src/main/resources/static/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/member-service/member-service.iml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-actuator-autoconfigure/2.1.0.RELEASE/spring-boot-actuator-autoconfigure-2.1.0.RELEASE.jar!/META-INF/spring-configuration-metadata.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/member-service/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="83" column="52" selection-start-line="83" selection-start-column="44" selection-end-line="83" selection-end-column="52" />
             </state>
           </provider>
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/member-web/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/member-web/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" selection-start-line="18" selection-end-line="18" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$MAVEN_REPOSITORY$/com/alipay/sofa/lookout/lookout-sofa-boot-starter/1.5.2/lookout-sofa-boot-starter-1.5.2.pom">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-110" />
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -77,8 +212,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>SpringR</find>
-      <find>SpringRe</find>
       <find>SpringRed</find>
       <find>SpringRedi</find>
       <find>SpringRedis</find>
@@ -103,10 +236,12 @@
       <find>sofaboot</find>
       <find>sofa</find>
       <find>sofa.boot.version</find>
-      <find>actuator</find>
       <find>junit</find>
       <find>logging.level</find>
       <find>spring</find>
+      <find>ac</find>
+      <find>lookout</find>
+      <find>actuator</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -130,14 +265,12 @@
         <option value="$PROJECT_DIR$/member-api/src/main/java/com/atinbo/member/service/IMemberFamilyService.java" />
         <option value="$PROJECT_DIR$/member-api/src/main/java/com/atinbo/member/service/ILoginService.java" />
         <option value="$PROJECT_DIR$/member-service/src/main/java/com/atinbo/member/entity/Member.java" />
-        <option value="$PROJECT_DIR$/member-service/pom.xml" />
         <option value="$PROJECT_DIR$/member-service/src/main/java/com/atinbo/member/Application.java" />
         <option value="$PROJECT_DIR$/member-service/src/main/java/com/atinbo/member/service/AddressServiceImpl.java" />
         <option value="$PROJECT_DIR$/member-service/src/main/java/com/atinbo/member/service/AuthorizeServiceImpl.java" />
         <option value="$PROJECT_DIR$/member-service/src/main/java/com/atinbo/member/service/MemberDetailServiceImpl.java" />
         <option value="$PROJECT_DIR$/member-service/src/main/java/com/atinbo/member/service/MemberFamilyServiceImpl.java" />
         <option value="$PROJECT_DIR$/member-service/src/main/java/com/atinbo/member/service/MemberServiceImpl.java" />
-        <option value="$PROJECT_DIR$/member-service/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/member-web/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/member-web/src/main/resources/application-dev.properties" />
         <option value="$PROJECT_DIR$/member-web/src/main/java/com/atinbo/member/impl/BookStoreControllerImpl.java" />
@@ -171,6 +304,8 @@
         <option value="$PROJECT_DIR$/member-web/src/main/java/com/atinbo/member/web/controller/impl/MemberControllerImpl.java" />
         <option value="$PROJECT_DIR$/member-service/src/test/java/com/atinbo/member/TagRepoTestCase.java" />
         <option value="$PROJECT_DIR$/member-service/src/main/resources/application-dev.properties" />
+        <option value="$PROJECT_DIR$/member-service/pom.xml" />
+        <option value="$PROJECT_DIR$/member-service/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -235,6 +370,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -247,20 +383,91 @@
               <item name="atinbo-member" type="462c0819:PsiDirectoryNode" />
               <item name="member-service" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="atinbo-member" type="b2602c69:ProjectViewProjectNode" />
+              <item name="atinbo-member" type="462c0819:PsiDirectoryNode" />
+              <item name="member-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="atinbo-member" type="b2602c69:ProjectViewProjectNode" />
+              <item name="atinbo-member" type="462c0819:PsiDirectoryNode" />
+              <item name="member-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="atinbo-member" type="b2602c69:ProjectViewProjectNode" />
+              <item name="atinbo-member" type="462c0819:PsiDirectoryNode" />
+              <item name="member-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="atinbo-member" type="b2602c69:ProjectViewProjectNode" />
+              <item name="atinbo-member" type="462c0819:PsiDirectoryNode" />
+              <item name="member-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="atinbo-member" type="b2602c69:ProjectViewProjectNode" />
+              <item name="atinbo-member" type="462c0819:PsiDirectoryNode" />
+              <item name="member-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="atinbo-member" type="b2602c69:ProjectViewProjectNode" />
+              <item name="atinbo-member" type="462c0819:PsiDirectoryNode" />
+              <item name="member-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="atinbo-member" type="b2602c69:ProjectViewProjectNode" />
+              <item name="atinbo-member" type="462c0819:PsiDirectoryNode" />
+              <item name="member-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="atinbo-member" type="b2602c69:ProjectViewProjectNode" />
+              <item name="atinbo-member" type="462c0819:PsiDirectoryNode" />
+              <item name="member-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="atinbo-member" type="b2602c69:ProjectViewProjectNode" />
+              <item name="atinbo-member" type="462c0819:PsiDirectoryNode" />
+              <item name="member-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="atinbo-member" type="b2602c69:ProjectViewProjectNode" />
+              <item name="atinbo-member" type="462c0819:PsiDirectoryNode" />
+              <item name="member-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth0" value="15" />
+    <property name="RequestMappingsPanelWidth1" value="15" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -291,7 +498,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TagRepoTestCase.testNew">
+  <component name="RunManager" selected="Spring Boot.Starter">
     <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
       <method />
     </configuration>
@@ -514,9 +721,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.Starter" />
         <item itemvalue="JUnit.TagRepoTestCase.testNew" />
         <item itemvalue="JUnit.TagRepoTestCase" />
-        <item itemvalue="Spring Boot.Starter" />
       </list>
     </recent_temporary>
   </component>
@@ -581,6 +788,7 @@
       <workItem from="1562644479825" duration="247000" />
       <workItem from="1562648860413" duration="2016000" />
       <workItem from="1562652153866" duration="1000" />
+      <workItem from="1562652209115" duration="1182000" />
     </task>
     <task id="LOCAL-00001" summary="注册用户修改">
       <created>1492170722755</created>
@@ -680,7 +888,14 @@
       <option name="project" value="LOCAL" />
       <updated>1562567330438</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="init">
+      <created>1562652304311</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1562652304311</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -716,7 +931,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85381000" />
+    <option name="totallyTimeSpent" value="86563000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -730,7 +945,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3211731" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32546496" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -740,11 +955,11 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49785408" weight="0.32765958" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4985694" weight="0.47801417" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49785408" visible="true" weight="0.47801417" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32765958" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50143063" side_tool="true" weight="0.47801417" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50214595" side_tool="true" weight="0.47801417" />
       <window_info anchor="bottom" id="Java Enterprise" order="8" weight="0.32907802" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.6638298" />
       <window_info anchor="bottom" id="Spring" order="10" />
@@ -900,38 +1115,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.8/lombok-1.18.8.jar!/lombok/ToString.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-dependencies/2.1.0.RELEASE/spring-boot-dependencies-2.1.0.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="177" column="37" selection-start-line="177" selection-start-column="24" selection-end-line="177" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/member-web/member-web.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/member-web/src/main/java/com/atinbo/member/web/model/OrderVO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1150,27 +1333,9 @@
     <entry file="file://$PROJECT_DIR$/member-service/src/main/resources/application-test.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/member-service/src/main/java/com/atinbo/member/Starter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/member-api/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-50" />
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/member-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4">
-          <caret line="78" column="31" selection-start-line="78" selection-start-column="24" selection-end-line="78" selection-end-column="31" />
-        </state>
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
@@ -1201,11 +1366,6 @@
     <entry file="file://$PROJECT_DIR$/member-web/src/main/resources/application-prod.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/member-web/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-100" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/member-web/src/main/java/com/atinbo/member/web/Starter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -1230,20 +1390,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/member-service/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="22" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/member-service/src/main/resources/application-dev.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="62" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="371">
@@ -1251,6 +1397,67 @@
         </state>
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/member-service/src/main/java/com/atinbo/member/Starter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/com/alipay/sofa/lookout/lookout-sofa-boot-starter/1.5.2/lookout-sofa-boot-starter-1.5.2.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-110" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/member-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-actuator-autoconfigure/2.1.0.RELEASE/spring-boot-actuator-autoconfigure-2.1.0.RELEASE.jar!/META-INF/spring-configuration-metadata.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/member-service/member-service.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/member-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="83" column="52" selection-start-line="83" selection-start-column="44" selection-end-line="83" selection-end-column="52" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/member-web/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/member-service/src/main/resources/application-dev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/member-service/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/member-service/src/main/resources/static/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

@@ -6,12 +6,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import java.io.IOException;
 
 
-@SpringBootApplication
-public class Starter {
+@SpringBootApplication(scanBasePackages = "com.atinbo")
+public class MemberApplication {
 
 
     public static void main(String[] args) {
-        SpringApplication.run(Starter.class, args);
+        SpringApplication.run(MemberApplication.class, args);
         try {
             System.in.read();
         } catch (IOException e) {

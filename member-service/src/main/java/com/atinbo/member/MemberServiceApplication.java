@@ -14,7 +14,7 @@ import java.io.IOException;
 
 @SpringBootApplication
 @EnableTransactionManagement
-public class Starter {
+public class MemberServiceApplication {
 
 
     @Autowired
@@ -29,7 +29,7 @@ public class Starter {
     public static void main(String[] args) {
 
 
-        SpringApplication.run(Starter.class, args);
+        SpringApplication.run(MemberServiceApplication.class, args);
         try {
             System.in.read();
         } catch (IOException e) {

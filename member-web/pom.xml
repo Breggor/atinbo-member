@@ -11,7 +11,7 @@
     <url>https://github.com/breggor</url>
 
     <properties>
-        <starter-class>com.atinbo.member.web.Starter</starter-class>
+        <starter-class>com.atinbo.member.web.MemberApplication</starter-class>
     </properties>
 
     <dependencies>
@@ -70,6 +70,11 @@
         <dependency>
             <groupId>com.atinbo</groupId>
             <artifactId>member-api</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.atinbo</groupId>
+            <artifactId>atinbo-mvc</artifactId>
         </dependency>
 
         <dependency>

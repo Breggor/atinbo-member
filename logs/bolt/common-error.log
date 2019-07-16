@@ -1,2 +1,0 @@
-2019-07-09 14:42:43,272 ERROR [RpcHeartbeatTrigger$1#112] [Bolt-default-executor-4-thread-15] Heartbeat exception caught! Error code=TIMEOUT, The address is 192.168.6.106:9600
-2019-07-09 14:42:43,272 ERROR [RpcHeartbeatTrigger$1#112] [Bolt-default-executor-4-thread-16] Heartbeat exception caught! Error code=TIMEOUT, The address is 192.168.6.106:9600

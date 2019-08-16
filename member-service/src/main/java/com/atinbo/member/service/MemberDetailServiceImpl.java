@@ -1,18 +1,15 @@
 package com.atinbo.member.service;
 
-import com.alipay.sofa.runtime.api.annotation.SofaService;
-import com.alipay.sofa.runtime.api.annotation.SofaServiceBinding;
-import com.atinbo.member.model.UserDetailParam;
 import com.atinbo.member.model.UserDetailBO;
+import com.atinbo.member.model.UserDetailParam;
+import org.apache.dubbo.config.annotation.Service;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 
-@Service
-@SofaService(interfaceType = IMemberDetailService.class, uniqueId = "${service.unique.id}", bindings = {@SofaServiceBinding(bindingType = "bolt")})
+@Service(version = "${member.service.version}")
 public class MemberDetailServiceImpl implements IMemberDetailService {
 
     private final Logger logger = LoggerFactory.getLogger(this.getClass());

@@ -1,9 +1,12 @@
 package com.atinbo.member.web.controller;
 
+import com.atinbo.member.model.MemberBO;
 import com.atinbo.member.model.MemberQuery;
+import com.atinbo.member.service.IMemberService;
 import com.atinbo.member.web.model.MemberForm;
 import com.atinbo.member.web.model.MemberVO;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.dubbo.config.annotation.Reference;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
@@ -14,8 +17,8 @@ import java.util.List;
 @RequestMapping("/members")
 public class MemberController {
 
-//    @SofaReference(interfaceType = IMemberService.class, uniqueId = "${service.unique.id}", binding = @SofaReferenceBinding(bindingType = "bolt"))
-//    private IMemberService memberService;
+    @Reference
+    private IMemberService memberService;
 
 
     /**
@@ -23,6 +26,8 @@ public class MemberController {
      */
     @GetMapping("/{id}")
     MemberVO view(@PathVariable("id") Long id) {
+        MemberBO one = memberService.findOne(1L);
+        System.out.println("one = " + one);
         return null;
     }
 

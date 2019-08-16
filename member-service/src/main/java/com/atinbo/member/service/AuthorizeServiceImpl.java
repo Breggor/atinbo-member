@@ -1,12 +1,9 @@
 package com.atinbo.member.service;
 
-import com.alipay.sofa.runtime.api.annotation.SofaService;
-import com.alipay.sofa.runtime.api.annotation.SofaServiceBinding;
-import org.springframework.stereotype.Service;
+import org.apache.dubbo.config.annotation.Service;
 
 
-@Service
-@SofaService(interfaceType = IAuthorizeService.class, uniqueId = "${service.unique.id}", bindings = {@SofaServiceBinding(bindingType = "bolt")})
+@Service(version = "${member.service.version}")
 public class AuthorizeServiceImpl implements IAuthorizeService {
 
     @Override

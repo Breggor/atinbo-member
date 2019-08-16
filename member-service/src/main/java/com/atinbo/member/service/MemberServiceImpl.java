@@ -1,13 +1,14 @@
 package com.atinbo.member.service;
 
-import com.alibaba.dubbo.config.annotation.Service;
+
 import com.atinbo.member.model.MemberBO;
 import com.atinbo.member.model.MemberParam;
+import org.apache.dubbo.config.annotation.Service;
 
 import java.util.List;
 
 
-@Service
+@Service(version = "${member.service.version}")
 public class MemberServiceImpl implements IMemberService {
 
     @Override

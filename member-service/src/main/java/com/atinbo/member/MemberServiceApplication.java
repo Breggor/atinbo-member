@@ -1,19 +1,13 @@
 package com.atinbo.member;
 
-import com.alipay.lookout.api.Counter;
-import com.alipay.lookout.api.Registry;
-import com.alipay.lookout.common.utils.NetworkUtil;
-import org.springframework.beans.factory.annotation.Autowired;
+import org.apache.dubbo.config.spring.context.annotation.EnableDubbo;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.transaction.annotation.EnableTransactionManagement;
 
-import javax.annotation.PostConstruct;
 import java.io.IOException;
 
-
+@EnableDubbo
 @SpringBootApplication
-@EnableTransactionManagement
 public class MemberServiceApplication {
     public static void main(String[] args) {
         SpringApplication.run(MemberServiceApplication.class, args);

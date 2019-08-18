@@ -2,28 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54aa093c-6a5a-4961-9ad8-8e999cb66006" name="Default" comment="init">
-      <change beforePath="$PROJECT_DIR$/.idea/atinbo-member.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/atinbo-member.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member-api/member-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/member-api/member-api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member-service/member-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/member-service/member-service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/member-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member-service/src/main/java/com/atinbo/member/MemberServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/member-service/src/main/java/com/atinbo/member/MemberServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member-service/src/main/java/com/atinbo/member/service/AddressServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/member-service/src/main/java/com/atinbo/member/service/AddressServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member-service/src/main/java/com/atinbo/member/service/AuthorizeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/member-service/src/main/java/com/atinbo/member/service/AuthorizeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member-service/src/main/java/com/atinbo/member/service/MemberDetailServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/member-service/src/main/java/com/atinbo/member/service/MemberDetailServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member-service/src/main/java/com/atinbo/member/service/MemberFamilyServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/member-service/src/main/java/com/atinbo/member/service/MemberFamilyServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member-service/src/main/java/com/atinbo/member/service/MemberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/member-service/src/main/java/com/atinbo/member/service/MemberServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member-service/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/member-service/src/main/resources/application-dev.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/member-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member-web/member-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/member-web/member-web.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/member-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member-web/src/main/java/com/atinbo/member/web/MemberApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/member-web/src/main/java/com/atinbo/member/web/MemberApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member-web/src/main/java/com/atinbo/member/web/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/member-web/src/main/java/com/atinbo/member/web/controller/MemberController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member-web/src/main/resources/application-dev.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/member-web/src/main/resources/application-prod.properties" beforeDir="false" afterPath="$PROJECT_DIR$/member-web/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member-web/src/main/resources/application-test.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/member-web/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/member-service/src/main/resources/application-dev.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/member-service/src/main/resources/application-local.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/member-service/src/main/resources/application-prod.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/member-service/src/main/resources/application-test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/member-service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/member-web/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/member-web/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,40 +54,6 @@
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>mybatis.version</find>
-      <find>Sys</find>
-      <find>USER_PLATFORM_IOS</find>
-      <find>is_bracelet</find>
-      <find>page</find>
-      <find>client_id</find>
-      <find>project</find>
-      <find>core</find>
-      <find>mysql</find>
-      <find>jar</find>
-      <find>plugin.maven-compiler</find>
-      <find>common</find>
-      <find>lom</find>
-      <find>serv</find>
-      <find>war</find>
-      <find>sofa.rpc.starter.version</find>
-      <find>registry-client-all</find>
-      <find>sofaboot</find>
-      <find>sofa</find>
-      <find>sofa.boot.version</find>
-      <find>junit</find>
-      <find>logging.level</find>
-      <find>spring</find>
-      <find>ac</find>
-      <find>lookout</find>
-      <find>actuator</find>
-      <find>starter-web</find>
-      <find>@Title</find>
-      <find>rpc</find>
-      <find>nacos</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -186,7 +137,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MemberApplication">
+  <component name="RunManager" selected="Spring Boot.MemberServiceApplication">
     <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
       <method />
     </configuration>
@@ -421,8 +372,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.MemberApplication" />
         <item itemvalue="Spring Boot.MemberServiceApplication" />
+        <item itemvalue="Spring Boot.MemberApplication" />
         <item itemvalue="JUnit.TagRepoTestCase.testNew" />
         <item itemvalue="JUnit.TagRepoTestCase" />
       </list>
@@ -523,7 +474,8 @@
       <workItem from="1565341877808" duration="185000" />
       <workItem from="1565342151990" duration="1381000" />
       <workItem from="1565943463060" duration="251000" />
-      <workItem from="1565944094683" duration="4414000" />
+      <workItem from="1565944094683" duration="4542000" />
+      <workItem from="1566097125962" duration="2226000" />
     </task>
     <task id="LOCAL-00001" summary="注册用户修改">
       <created>1492170722755</created>
@@ -714,7 +666,14 @@
       <option name="project" value="LOCAL" />
       <updated>1563260456355</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="init">
+      <created>1565948747788</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1565948747788</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TestHistory">

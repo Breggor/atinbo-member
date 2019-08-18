@@ -1,6 +1,0 @@
-2019-07-08 18:48:58,888 INFO  main                             RPC-BOLT-THREADPOOL - coreSize:20,maxPoolSize:200,keepAliveTime:300000
-
-2019-07-08 18:48:58,888 INFO  RPC-RES-MONITOR                  RPC-BOLT-THREADPOOL - blockQueue:0, active:0, idle:0, poolSize:0
-2019-07-08 18:50:35,063 INFO  main                             RPC-BOLT-THREADPOOL - coreSize:20,maxPoolSize:200,keepAliveTime:300000
-
-2019-07-08 18:50:35,064 INFO  RPC-RES-MONITOR                  RPC-BOLT-THREADPOOL - blockQueue:0, active:0, idle:0, poolSize:0

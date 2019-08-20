@@ -13,9 +13,10 @@ server:
   port: 8080
 
 logging:
-  level:
-    - root: info
   path: ./logs
+  level:
+    root: INFO
+    com.atinbo: DEBUG
 
 member:
   service:
@@ -29,5 +30,14 @@ dubbo:
     address: nacos://${nacos.host}:${nacos.port}
   consumer:
     version: ${member.service.version}
+    check: false
 
-workerId: 1
+disId:
+  workerId: 1
+
+dislock:
+  pattern: single
+  single-server:
+    address: 192.168.6.103
+    port: 6379
+    password: 123456

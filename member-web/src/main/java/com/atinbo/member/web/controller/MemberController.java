@@ -1,15 +1,19 @@
 package com.atinbo.member.web.controller;
 
+import com.atinbo.dislock.annotation.DisLock;
+import com.atinbo.dislock.annotation.LockKey;
+import com.atinbo.dislock.constant.DisLockType;
 import com.atinbo.member.model.MemberBO;
-import com.atinbo.member.model.MemberQuery;
 import com.atinbo.member.service.IMemberService;
 import com.atinbo.member.web.model.MemberForm;
+import com.atinbo.member.web.model.MemberQuery;
 import com.atinbo.member.web.model.MemberVO;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.dubbo.config.annotation.Reference;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
+import java.util.ArrayList;
 import java.util.List;
 
 @Slf4j
@@ -35,8 +39,14 @@ public class MemberController {
      * 查询会员
      */
     @GetMapping
+    @DisLock(lockType = DisLockType.MULTI, leaseTime = 30L, waitTime = 30L)
+    @LockKey({"MemberQuery.memberId", "MemberQuery.memberName"})
     List<MemberVO> query(@RequestBody MemberQuery query) {
-        return null;
+        List<MemberVO> mbs = new ArrayList<>();
+        for (int i = 0; i < 10; i++) {
+            mbs.add(new MemberVO().setAge(i));
+        }
+        return mbs;
     }
 
     /**

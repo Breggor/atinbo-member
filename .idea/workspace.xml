@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54aa093c-6a5a-4961-9ad8-8e999cb66006" name="Default" comment="init">
+      <change afterPath="$PROJECT_DIR$/member-web/src/main/java/com/atinbo/member/web/model/MemberQuery.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member-service/src/main/resources/application-dev.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/member-service/src/main/resources/application-local.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/member-service/src/main/resources/application-prod.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/member-service/src/main/resources/application-test.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/member-service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/member-api/member-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/member-api/member-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/member-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member-api/src/main/java/com/atinbo/member/model/MemberQuery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/member-service/member-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/member-service/member-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member-web/member-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/member-web/member-web.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/member-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member-web/src/main/java/com/atinbo/member/web/MemberApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/member-web/src/main/java/com/atinbo/member/web/MemberApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member-web/src/main/java/com/atinbo/member/web/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/member-web/src/main/java/com/atinbo/member/web/controller/MemberController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member-web/src/main/java/com/atinbo/member/web/model/MemberVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/member-web/src/main/java/com/atinbo/member/web/model/MemberVO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/member-web/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/member-web/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -114,15 +119,15 @@
     <property name="settings.editor.selected.configurable" value="settings.saveactions" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.atinbo.member.web.model" />
+      <recent name="com.atinbo.member.model" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/member-web/src/main/resources" />
       <recent name="$PROJECT_DIR$/member-service/src/main/resources" />
       <recent name="$PROJECT_DIR$/member-web/src/main/java/com/atinbo/member" />
       <recent name="$PROJECT_DIR$" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.atinbo.member.web.model" />
-      <recent name="com.atinbo.member.model" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -137,7 +142,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MemberServiceApplication">
+  <component name="RunManager" selected="Spring Boot.MemberApplication">
     <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
       <method />
     </configuration>
@@ -372,12 +377,22 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.MemberServiceApplication" />
         <item itemvalue="Spring Boot.MemberApplication" />
+        <item itemvalue="Spring Boot.MemberServiceApplication" />
         <item itemvalue="JUnit.TagRepoTestCase.testNew" />
         <item itemvalue="JUnit.TagRepoTestCase" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -475,7 +490,16 @@
       <workItem from="1565342151990" duration="1381000" />
       <workItem from="1565943463060" duration="251000" />
       <workItem from="1565944094683" duration="4542000" />
-      <workItem from="1566097125962" duration="2226000" />
+      <workItem from="1566097125962" duration="5087000" />
+      <workItem from="1566112259494" duration="584000" />
+      <workItem from="1566113468300" duration="83000" />
+      <workItem from="1566177564709" duration="1595000" />
+      <workItem from="1566179430289" duration="15000" />
+      <workItem from="1566190503766" duration="4005000" />
+      <workItem from="1566213668046" duration="1076000" />
+      <workItem from="1566264176623" duration="4388000" />
+      <workItem from="1566287264031" duration="1683000" />
+      <workItem from="1566291269591" duration="1577000" />
     </task>
     <task id="LOCAL-00001" summary="注册用户修改">
       <created>1492170722755</created>
@@ -673,40 +697,15 @@
       <option name="project" value="LOCAL" />
       <updated>1565948747788</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="init">
+      <created>1566099553071</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1566099553071</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="UserDetailServiceTest_testInsert - 2017.08.14 at 00h 12m 05s.xml">
-      <configuration name="UserDetailServiceTest.testInsert" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserDetailServiceTest_testInsert - 2017.08.14 at 00h 13m 37s.xml">
-      <configuration name="UserDetailServiceTest.testInsert" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserDetailServiceTest_testInsert - 2017.08.16 at 06h 57m 54s.xml">
-      <configuration name="UserDetailServiceTest.testInsert" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserDetailServiceTest_testInsert - 2017.08.16 at 06h 59m 44s.xml">
-      <configuration name="UserDetailServiceTest.testInsert" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TagRepoTestCase - 2019.07.05 at 09h 35m 15s.xml">
-      <configuration name="TagRepoTestCase" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TagRepoTestCase_testNew - 2019.07.05 at 09h 40m 35s.xml">
-      <configuration name="TagRepoTestCase.testNew" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TagRepoTestCase_testNew - 2019.07.05 at 09h 42m 33s.xml">
-      <configuration name="TagRepoTestCase.testNew" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TagRepoTestCase_testNew - 2019.07.05 at 10h 00m 10s.xml">
-      <configuration name="TagRepoTestCase.testNew" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TagRepoTestCase - 2019.07.08 at 18h 49m 11s.xml">
-      <configuration name="TagRepoTestCase" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TagRepoTestCase_testNew - 2019.07.08 at 18h 50m 46s.xml">
-      <configuration name="TagRepoTestCase.testNew" configurationId="JUnit" />
-    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -783,10 +782,15 @@
           <line>673</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/com/chuangleren/common-core/1.2.2-SNAPSHOT/common-core-1.2.2-20170418.124450-55-sources.jar!/com/clr/common/redis/SpringRedisUtil.java</url>
           <line>239</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/atinbo/dislock-spring-boot-starter/1.0.0-SNAPSHOT/dislock-spring-boot-starter-1.0.0-SNAPSHOT-sources.jar!/com/atinbo/dislock/core/strategy/MethodKeyStrategy.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
